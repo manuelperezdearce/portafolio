@@ -29,7 +29,7 @@ export default function Navbar() {
 
             <nav className="w-[80%] flex justify-between items-center">
                 <div className="w-[100px]">
-                    <Link to="Home" smooth={true}>
+                    <Link role="button" to="Home" smooth={true}>
                         <img src="./NG_LOGOW.png" alt="logo" />
                     </Link>
 
