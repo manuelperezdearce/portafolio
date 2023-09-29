@@ -1,6 +1,10 @@
 'use client'
+
 import { useState } from "react"
+
 import { Link } from "react-scroll"
+import NavUtilitieslNormal from "./components/NavUtilitiesNormal"
+import NavUtilitieslBurger from "./components/NavUtilitiesBurger"
 const navItems = [
     {
         id: '0',
@@ -19,10 +23,10 @@ const navItems = [
 export default function Navbar() {
 
     const [activeIndex, setActiveIndex] = useState("Home")
-
     const handleActiveIndex = (e) => {
         setActiveIndex(e)
     }
+    console.log(window)
 
     return (
         <header className="bg-primary text-customWhite h-28 py-4 flex items-center justify-center shadow-lg fixed w-full">
@@ -32,31 +36,9 @@ export default function Navbar() {
                     <Link role="button" to="Home" smooth={true}>
                         <img src="./NG_LOGOW.png" alt="logo" />
                     </Link>
-
                 </div>
-                <ul className="flex gap-4  justify-end">
-                    {
-                        navItems.map(item => {
-                            return (
-                                <li className="flex flex-col" role="button" key={item.id}>
-                                    <Link
-
-                                        name={item.id}
-                                        onSetActive={handleActiveIndex}
-                                        onClick={handleActiveIndex}
-                                        to={item.name}
-                                        smooth={true}
-                                        spy={true}
-
-                                    >
-                                        {item.name}
-                                    </Link>
-                                    <span className={`${activeIndex === item.name && "bg-customWhite"} h-1 rounded-lg transition ease-in`} />
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
+                <NavUtilitieslNormal className="hidden sm:block" navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />
+                <NavUtilitieslBurger className="block sm:hidden" navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />
             </nav>
         </header>
     )
