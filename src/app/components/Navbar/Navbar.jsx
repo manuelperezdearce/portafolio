@@ -26,7 +26,6 @@ export default function Navbar() {
     const handleActiveIndex = (e) => {
         setActiveIndex(e)
     }
-    console.log(window)
 
     return (
         <header className="bg-primary text-customWhite h-28 py-4 flex items-center justify-center shadow-lg fixed w-full">
