@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Section from "./components/Section/Section";
+import SectionFull from "./components/Section/SectionFull";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -15,17 +16,16 @@ export default function App() {
       <div className="">
         <section className="" name="Home">
           <Hero />
-          <Section name="Home" styles={sectionParCSS}>
+          <Section name="Inicio" styles={sectionParCSS}>
             <Home />
           </Section>
         </section>
-
-        <Section name="Services" styles={sectionImparCSS}>
+        <Section name="Servicios" styles={sectionImparCSS}>
           <Services />
         </Section>
-        <Section name="About" styles={sectionParCSS}>
+        <SectionFull name="Nosotros" styles={sectionParCSS}>
           <About />
-        </Section>
+        </SectionFull>
       </div>
     </div>
   )

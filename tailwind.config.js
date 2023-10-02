@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         title: 'var(--title)',
+        phrase: 'var(--phrase)',
       },
       colors: {
         primary: 'var(--primary)',

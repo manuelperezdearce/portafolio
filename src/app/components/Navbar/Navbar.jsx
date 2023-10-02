@@ -8,15 +8,15 @@ import NavUtilitieslBurger from "./components/NavUtilitiesBurger"
 const navItems = [
     {
         id: '0',
-        name: 'Home'
+        name: 'Inicio'
     },
     {
         id: '1',
-        name: 'Services'
+        name: 'Servicios'
     },
     {
         id: '2',
-        name: 'About'
+        name: 'Nosotros'
     }
 ]
 
@@ -33,13 +33,13 @@ export default function Navbar() {
 
 
     return (
-        <header className={`w-full  text-customWhite ${dropNav ? "h-24 bg-primary50" : "h-12 bg-primary"} py-4 flex items-center justify-center shadow-lg fixed duration-150 z-50`}
+        <header className={`w-full  text-customWhite ${dropNav ? "h-24 bg-primary" : "h-12 bg-primary50 "} py-4 flex items-center justify-center shadow-lg fixed duration-150 z-50`}
             onMouseEnter={handleDropNav} onMouseLeave={handleDropNav}
         >
 
-            <nav className="w-[90%] m:w-[80%] flex justify-between items-center">
+            <nav className="w-[90%] md:w-[80%] flex justify-between items-center">
                 <div className={`${dropNav ? "h-20" : "h-10"} duration-150`}>
-                    <Link role="button" to="Home" smooth={true}>
+                    <Link role="button" to="Inicio" smooth={true}>
                         <img className="h-full" src="./NG_LOGOW.png" alt="logo" />
                     </Link>
                 </div>
