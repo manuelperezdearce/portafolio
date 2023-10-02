@@ -23,22 +23,29 @@ const navItems = [
 export default function Navbar() {
 
     const [activeIndex, setActiveIndex] = useState("Home")
+    const [dropNav, setDropNav] = useState(false)
     const handleActiveIndex = (e) => {
         setActiveIndex(e)
     }
+    const handleDropNav = () => {
+        dropNav ? setDropNav(false) : setDropNav(true)
+    }
+
 
     return (
-        <header className="bg-primary text-customWhite h-28 py-4 flex items-center justify-center shadow-lg fixed w-full">
+        <header className={`w-full bg-primary text-customWhite ${dropNav ? "h-24" : "h-12"} py-4 flex items-center justify-center shadow-lg fixed duration-150 z-50`}
+            onMouseEnter={handleDropNav} onMouseLeave={handleDropNav}
+        >
 
-            <nav className="w-[80%] flex justify-between items-center">
-                <div className="w-[100px]">
+            <nav className="w-[90%] m:w-[80%] flex justify-between items-center">
+                <div className={`${dropNav ? "h-20" : "h-10"} duration-150`}>
                     <Link role="button" to="Home" smooth={true}>
-                        <img src="./NG_LOGOW.png" alt="logo" />
+                        <img className="h-full" src="./NG_LOGOW.png" alt="logo" />
                     </Link>
                 </div>
                 <NavUtilitieslNormal className="hidden sm:block" navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />
                 <NavUtilitieslBurger className="block sm:hidden" navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />
             </nav>
-        </header>
+        </header >
     )
 }
