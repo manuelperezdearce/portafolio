@@ -21,3 +21,9 @@
   --customBlack: #060606;
   --customRed: #BB2B2B;
 }
+
+body {
+  /* background-image: url("https://as2.ftcdn.net/v2/jpg/01/68/24/63/1000_F_168246324_GMTy91hHJbA7hHe6PO2hfIItv5EnZLCf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}

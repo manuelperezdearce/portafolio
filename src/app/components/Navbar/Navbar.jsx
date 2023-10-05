@@ -33,7 +33,7 @@ export default function Navbar() {
 
 
     return (
-        <header className={`w-full  text-customWhite ${dropNav ? "h-24 bg-primary" : "h-12 bg-primary50 "} py-4 flex items-center justify-center shadow-lg fixed duration-150 z-50`}
+        <header className={`w-full  text-customWhite ${dropNav ? "h-24" : "h-12 "} py-4 flex items-center fixed justify-center  duration-150 z-50`}
             onMouseEnter={handleDropNav} onMouseLeave={handleDropNav}
         >
 

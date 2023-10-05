@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Section from "./components/Section/Section";
@@ -6,15 +7,16 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 
-const sectionParCSS = 'bg-customGrey '
-const sectionImparCSS = 'bg-primary text-customWhite'
+const sectionParCSS = "bg-transparent"
+const sectionImparCSS = "bg-transparent"
 
 export default function App() {
   return (
-    <div className="flex justify-center">
+
+    <div className="h-[100vh] flex flex-col justify-top ">
       <Navbar />
-      <div className="">
-        <section className="" name="Home">
+      <main id="main" className="overflow-hidden overflow-y-auto ">
+        <section className="relative" name="Home">
           <Hero />
           <Section name="Inicio" styles={sectionParCSS}>
             <Home />
@@ -26,7 +28,10 @@ export default function App() {
         <SectionFull name="Nosotros" styles={sectionParCSS}>
           <About />
         </SectionFull>
-      </div>
+      </main>
+      <Footer />
     </div>
+
+
   )
 }

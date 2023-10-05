@@ -28,6 +28,7 @@ export default function NavUtilitieslBurger({ handleActiveIndex, activeIndex, na
                                         to={item.name}
                                         smooth={true}
                                         spy={true}
+                                        containerId="main"
                                     >
                                         {item.name}
                                     </Link>
