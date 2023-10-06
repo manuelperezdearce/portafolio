@@ -18,7 +18,6 @@ export default function App() {
         <Navbar />
         <Footer />
       </div>
-
       <main id="main" className="overflow-hidden overflow-y-auto">
         <section className="relative" name="Home">
           <Hero />

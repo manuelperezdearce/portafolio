@@ -18,7 +18,7 @@ export default function NavUtilitieslNormal({ navItems, handleActiveIndex, activ
                             >
                                 {item.name}
                             </Link>
-                            <span className={`${activeIndex === item.name && "bg-customWhite"} h-1 rounded-lg transition ease-in`} />
+                            <span className={`${activeIndex === item.name && "bg-customWhite"} h-[1px] rounded-lg transition ease-in`} />
                         </li>
                     )
                 })

@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className='relative overflow-hidden text-2xl h-[100vh] flex flex-col items-center' >
+      <body className='relative overflow-hidden text-2xl h-[100vh] flex flex-col items-center text-customWhite' >
         <img className='z-0 absolute w-[100vw] scale-110 min-h-[100vh] grayscale-[0.6] brightness-50 blur-[8px]' src="/bg.jpg" alt="" />
         {children}
       </body>

@@ -6,7 +6,7 @@ export default function About({ styles }) {
     const AboutSection = "h-50px flex flex-wrap"
     return (
         <div
-            className={`${styles} flex flex-col [&>div]:flex [&>div]:flex-wrap [&>*]:[&>*]:w-full [&>*]:[&>*]:lg:w-1/2 text-primary `}
+            className={`${styles} flex flex-col [&>div]:flex [&>div]:flex-wrap [&>*]:[&>*]:w-full [&>*]:[&>*]:lg:w-1/2 text-customWhite `}
         >
             <div >
                 <div className={container}>
