@@ -14,8 +14,12 @@ export default function App() {
   return (
 
     <div className="h-[100vh] flex flex-col justify-top ">
-      <Navbar />
-      <main id="main" className="overflow-hidden overflow-y-auto ">
+      <div className="h-[100vh] flex flex-col justify-between absolute ">
+        <Navbar />
+        <Footer />
+      </div>
+
+      <main id="main" className="overflow-hidden overflow-y-auto">
         <section className="relative" name="Home">
           <Hero />
           <Section name="Inicio" styles={sectionParCSS}>
@@ -29,7 +33,7 @@ export default function App() {
           <About />
         </SectionFull>
       </main>
-      <Footer />
+
     </div>
 
 
