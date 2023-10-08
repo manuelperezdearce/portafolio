@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Section from "./components/Section/Section";
 import SectionFull from "./components/Section/SectionFull";
+import SideMenu from "./components/SideMenu/SideMenu";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
@@ -16,6 +17,7 @@ export default function App() {
     <div className="h-[100vh] flex flex-col justify-top ">
       <div className="h-[100vh] flex flex-col justify-between absolute ">
         <Navbar />
+        <SideMenu />
         <Footer />
       </div>
       <main id="main" className="overflow-hidden overflow-y-auto">

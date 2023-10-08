@@ -34,7 +34,7 @@ export default function Footer() {
             onMouseLeave={handleOpenState}
             onClick={handleFixedState}
         >
-            <span className='p-1 bg-primary50 rounded-full absolute -top-2 shadow-sm'>
+            <span className='p-1 bg-primary50 rounded-full absolute -top-2 shadow-smgit'>
                 <MdOutlineArrowBackIosNew className={arrowStyle} />
             </span>
 
