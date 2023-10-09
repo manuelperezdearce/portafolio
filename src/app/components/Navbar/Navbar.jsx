@@ -22,7 +22,7 @@ const navItems = [
 
 export default function Navbar() {
 
-    const [activeIndex, setActiveIndex] = useState("Home")
+    const [activeIndex, setActiveIndex] = useState("Inicio")
 
     const handleActiveIndex = (e) => {
         setActiveIndex(e)
@@ -31,10 +31,9 @@ export default function Navbar() {
 
 
     return (
-        <header className="w-[100vw] bg-primary10 backdrop-blur-xl text-customWhite h-14 py-4 flex items-center justify-center shadow-md box text-sm font-light  px-8 fixed duration-150 z-50 rounded-b-lg"
+        <header className="w-[100vw] bg-primary10 backdrop-blur-xl text-customWhite h-14 py-4 flex items-center justify-center shadow-md box text-sm font-light  px-8 duration-150 z-50 rounded-b-lg"
 
         >
-
             <nav className="w-[90%] md:w-[100%] flex justify-between items-center uppercase">
                 <div className="h-10 duration-150">
                     <Link role="button" to="Inicio" smooth={true}>
