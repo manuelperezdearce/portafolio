@@ -6,11 +6,14 @@ export const metadata = {
   description: '',
 }
 
+
+
 export default function RootLayout({ children }) {
+
+  const bodyStyles = 'relative overflow-hidde text-2xl h-[100vh] flex flex-col items-center text-customWhite bg-[url("/bg2blur9px.jpeg")] bg-cover bg-no-repeat'
   return (
-    <html className='overflow-hidden' lang="es">
-      <body className='relative overflow-hidden overscroll-none text-2xl h-[100vh] flex flex-col items-center text-customWhite' >
-        <img className='z-0 absolute min-w-[100%] scale-110 min-h-[100%] grayscale-[0.6 brightness-50 blur-[4px]' src="/bg2.jpg" alt="" />
+    <html lang="es">
+      <body className={bodyStyles} >
         {children}
       </body>
     </html>

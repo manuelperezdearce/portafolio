@@ -31,7 +31,7 @@ export default function Navbar() {
 
 
     return (
-        <header className="w-[100vw] bg-primary10 backdrop-blur-xl text-customWhite h-14 py-4 flex items-center justify-center shadow-md box text-sm font-light  px-8 duration-150 z-50 rounded-b-lg"
+        <header className="w-[100vw] bg-primary10 backdrop-blur-xl text-customWhite h-14 py-4 flex items-center justify-center shadow-md box text-sm font-light fixed  px-8 duration-150 z-50 rounded-b-lg"
 
         >
             <nav className="w-[90%] md:w-[100%] flex justify-between items-center uppercase">

@@ -17,10 +17,34 @@
   --primary50: rgba(8, 50, 102, 0.5);
   --primary10: rgba(8, 50, 102, 0.6);
   --secondary: #145096;
+  --secondary80: rgba(20, 81, 150, 0.8);
   --customGrey: #D8DEDF;
   --customWhite: #FFFFFF;
   --customBlack: #060606;
   --customRed: #BB2B2B;
+
+
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #000000 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 1rem;
+
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary10);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary80);
+  border-radius: 10px;
+  /* border: 1px solid var(--customBlack); */
 }
 
 body {

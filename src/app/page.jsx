@@ -20,7 +20,7 @@ export default function App() {
         <SideMenu />
         <Footer />
       </div>
-      <main id="main" className="overflow-hidden overflow-y-auto">
+      <main id="main" className="overflow-hidden overflow-y-visible ">
         <section className="relative" name="Home">
           <Hero />
           <Section name="Inicio" styles={sectionParCSS}>

@@ -16,6 +16,7 @@ module.exports = {
         primary50: 'var(--primary50)',
         primary10: 'var(--primary10)',
         secondary: 'var(--secondary)',
+        secondary80: 'var(--secondary80)',
         customGrey: 'var(--customGrey)',
         customWhite: 'var(--customWhite)',
         customBlack: 'var(--customBlack)',

@@ -14,7 +14,7 @@ export default function NavUtilitieslBurger({ handleActiveIndex, activeIndex, na
         <div className="relative block sm:hidden">
             <IoMdMenu className="text-4xl" role='button' onClick={handleToggleMenu} />
 
-            <span className={` ${toggleMenu ? "opacity-100" : "opacity-0 "}  bg-customWhite text-primary duration-150 p-4 absolute right-1 rounded-md shadow-md`} >
+            <span className={` ${toggleMenu ? "opacity-100" : "opacity-0 "}  bg-primary duration-150 p-4 absolute right-1 rounded-md shadow-md z-50`} >
                 <ul className="flex flex-col gap-2 justify-end">
                     {
                         toggleMenu &&
@@ -32,7 +32,8 @@ export default function NavUtilitieslBurger({ handleActiveIndex, activeIndex, na
                                     >
                                         {item.name}
                                     </Link>
-                                    <span className={`${activeIndex === item.name && "bg-secondary"} h-1 rounded-lg transition ease-in`} />
+                                    <span className={`${activeIndex === item.name && "bg-secondary "}
+                                    h-[1px] rounded-lg transition ease-in`} />
                                 </li>
                             )
                         })
