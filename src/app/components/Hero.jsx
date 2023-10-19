@@ -11,7 +11,7 @@ export default function Hero() {
                     Construimos la ventana con la que tu marca saldrá al mundo,<br />
                     <span className="font-bold"> Bienvenido a la web.</span>
                 </h2>
-                <img className="w-[150px] md:w-[250px] drop-shadow-md" src="/NG_LOGOW.png" alt="logo" />
+                <img className="w-[150px] md:w-[250px] drop-shadow-md" src="/LOGO-W.png" alt="logo" />
                 <h1 className=" z-40 drop-shadow-lg">
                     Tecnologías y soluciones digitales
                 </h1>

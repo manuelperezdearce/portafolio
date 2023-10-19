@@ -61,7 +61,7 @@ export default function Footer() {
                 </p>
                 <img
                     className='m-auto w-[30px]'
-                    src="./NG_LOGOW.png" alt="NGTech logo" />
+                    src="./LOGO-W.png" alt="LOGO" />
                 <p>
                     Tecnología y Soluciones digitales
                 </p>

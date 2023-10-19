@@ -37,7 +37,7 @@ export default function Navbar() {
             <nav className="w-[90%] md:w-[100%] flex justify-between items-center uppercase">
                 <div className="h-10 duration-150">
                     <Link role="button" to="Inicio" smooth={true}>
-                        <img className="h-full" src="./NG_LOGOW.png" alt="logo" />
+                        <img className="h-full" src="./LOGO-W.png" alt="logo" />
                     </Link>
                 </div>
                 <NavUtilitieslNormal className="hidden sm:block" navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />
