@@ -2,84 +2,29 @@
 
 export default function About({ styles }) {
 
-    const container = "w-full lg:w-1/2 p-5 lg:p-20"
-    const AboutSection = "h-50px flex flex-wrap"
+    const container = "w-full h-full lg:w-1/2 p-5 lg:pe-20 ms-auto flex flex-col justify-center items-center my-auto"
+    const imgAnimation = "animate-fade-right animate-once animate-duration-250 animate-delay-250 "
+
+
     return (
         <div
-            className={`${styles} flex flex-col [&>div]:flex [&>div]:flex-wrap [&>*]:[&>*]:w-full [&>*]:[&>*]:lg:w-1/2 text-customWhite `}
+            className={`${styles} flex flex-col [&>div]:flex text-customWhite relative`}
         >
-            <div >
+
+            <div className="flex-wrap [&>*]:w-full [&>*]:lg:w-1/2 " >
+
+                <img className={`${imgAnimation} object-cover z-20`} src="/profile2.png" alt="" />
+
+
                 <div className={container}>
-                    <h3 className="font-bold text-3xl mb-4 uppercase">Nosotros</h3>
-
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit deserunt qui quod tempore quibusdam, velit, rea ducimus ipsum eveniet sapiente maxime! Voluptate doloremque labore  dolorem modi vitae odio error cupiditate similique iure. Corrupti sunt consequuntur consectetur.<br /><br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam praesentium eveniet architecto, quos cum aspernatur aliquam numquam provident sint?
+                    <h1 className="font-title text-8xl mb-4 uppercase z-20  animate-fade-left animate-once animate-duration-1000 leading-tight text-left whitespace-nowrap break-all">MANUEL <br /> PÉREZ DE ARCE </h1>
+                    <h2 className="text-customRed font-bold text-6xl lg:text-6xl xl:text-6xl mb-4 uppercase z-10 animate-fade-left animate-once animate-duration-1000 right-0 whitespace-nowrap">desarrollador Front End</h2>
+                    <p className="text-4xl text-center animate-fade-left animate-once animate-duration-250 animate-delay-500 mt-20">
+                        Hola, bienvenido a mi website!<br />
+                        Aquí podrás conocer un poco más de los trabajos que he realizado, además de las tecnologías que utilizo para crear sitios web asombrosos!
                     </p>
-
                 </div >
-                <img className=" object-cover" src="https://skepp.com/assets/Uploads/Oficina-Plaza-Urquinaona2.jpg" alt="" />
             </div >
-            <div>
-
-                <img className=" object-cover" src="https://www.obsbusiness.school/sites/obsbusiness.school/files/images/metodologias-de-desarrollo-de-software.gif" alt="" />
-                <div className={`${container} flex flex-col [&>div]:mb-10`}>
-                    <div>
-                        <h3 className="font-bold text-3xl mb-4 uppercase">Misión</h3>
-
-                        <p>
-                            Lorem ipsum Odit deserunt qui quod tempore quibusdam, velit. dolor sit, amet consectetur adipisicing elit. Odit deserunt qui quod tempore quibusdam, velit.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3 className="font-bold text-3xl mb-4 uppercase">Visión</h3>
-
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit deserunt qui quod tempore quibusdam, velit.
-                        </p>
-                    </div>
-
-
-                </div>
-            </div>
-            <div>
-
-
-                <div className={container}>
-                    <h3 className="font-bold text-3xl mb-4 uppercase">Nuestros valores</h3>
-                    <ul>
-                        <li>
-                            <p>
-                                Lorem ipsum dolor sit
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Lorem ipsum dolor sit
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Lorem ipsum dolor sit
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                Lorem ipsum dolor sit
-                            </p>
-                        </li>
-                    </ul>
-                    <br />
-
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit deserunt qui quod tempore quibusdam, velit.
-                    </p>
-
-                </div>
-                <img className=" object-cover" src="https://pymstatic.com/107031/conversions/claves-psicologicas-trabajo-equipo-wide.jpg" alt="" />
-            </div>
-
         </div >
     )
 }

@@ -8,16 +8,17 @@ import NavUtilitieslBurger from "./components/NavUtilitiesBurger"
 const navItems = [
     {
         id: '0',
-        name: 'Inicio'
+        name: 'Sobre mí'
     },
     {
         id: '1',
-        name: 'Servicios'
+        name: 'Portafolio'
     },
     {
         id: '2',
-        name: 'Nosotros'
-    }
+        name: 'Tecnologías'
+    },
+
 ]
 
 export default function Navbar() {
@@ -31,14 +32,15 @@ export default function Navbar() {
 
 
     return (
-        <header className="w-[100vw] bg-primary10 backdrop-blur-xl text-customWhite h-14 py-4 flex items-center justify-center shadow-md box text-sm font-light fixed  px-8 duration-150 z-50 rounded-b-lg"
+        <header className="w-[100vw] bg-primary10 backdrop-blur-xl text-customWhite h-14 flex items-center justify-center shadow-md box text-sm font-light fixed  px-8 duration-150 z-50 rounded-b-lg"
 
         >
             <nav className="w-[90%] md:w-[100%] flex justify-between items-center uppercase">
-                <div className="h-10 duration-150">
+                <div className="h-10 duration-150 flex items-center [&>*]:me-5">
                     <Link role="button" to="Inicio" smooth={true}>
-                        <img className="h-full" src="./LOGO-W.png" alt="logo" />
+                        <img className="w-10" src="./LOGO-W.png" alt="logo" />
                     </Link>
+                    <h1 className="text-lg">Manuel Pérez de Arce Portafolio</h1>
                 </div>
                 <NavUtilitieslNormal className="hidden sm:block" navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />
                 <NavUtilitieslBurger className="block sm:hidden" navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />

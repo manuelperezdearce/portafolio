@@ -63,7 +63,7 @@ export default function Footer() {
                     className='m-auto w-[30px]'
                     src="./LOGO-W.png" alt="LOGO" />
                 <p>
-                    Tecnología y Soluciones digitales
+                    SiriFazendoBarra
                 </p>
             </article>
         </footer >

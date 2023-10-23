@@ -20,9 +20,12 @@ module.exports = {
         customGrey: 'var(--customGrey)',
         customWhite: 'var(--customWhite)',
         customBlack: 'var(--customBlack)',
+        customBlack10: 'var(--customBlack10)',
         customRed: 'var(--customRed)'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
