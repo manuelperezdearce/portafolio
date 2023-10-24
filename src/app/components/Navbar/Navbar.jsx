@@ -40,7 +40,7 @@ export default function Navbar() {
                     <Link role="button" to="Inicio" smooth={true}>
                         <img className="w-10" src="./LOGO-W.png" alt="logo" />
                     </Link>
-                    <h1 className="text-lg">Manuel Pérez de Arce Portafolio</h1>
+                    <h1 className="hidden md:block text-lg">Manuel Pérez de Arce Portafolio</h1>
                 </div>
                 <NavUtilitieslNormal className="hidden sm:block" navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />
                 <NavUtilitieslBurger className="block sm:hidden" navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />

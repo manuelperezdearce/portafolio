@@ -14,13 +14,9 @@ const sectionImparCSS = "bg-transparent"
 export default function App() {
   return (
 
-    <div className="h-[100vh] flex flex-col justify-top">
-      <div className="h-[100vh] flex flex-col justify-between absolute left-0 ">
-        <Navbar />
-        <SideMenu />
-        <Footer />
-      </div>
-      <main id="main" className="bg-customBlack10 w-screen overflow-hidden overflow-y-visible ">
+    <div className="h-[100vh] flex flex-col justify-top bg-customBlack10">
+      <Navbar />
+      <main id="main" className="w-screen overflow-hidden overflow-y-auto relative">
         <SectionFull name="Sobre mí" styles={sectionParCSS}>
           <About />
         </SectionFull>
@@ -30,12 +26,9 @@ export default function App() {
         <Section name="Tecnologías" styles={sectionParCSS}>
           <Home />
         </Section>
-
-
+        <SideMenu />
       </main>
-
+      <Footer />
     </div>
-
-
   )
 }
