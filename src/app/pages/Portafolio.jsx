@@ -1,16 +1,19 @@
+"use client"
+import { useState } from "react"
+import Error404 from "../components/Error404"
+
+const PORTAFOLIO_DATA = []
+
 export default function Portafolio({ styles }) {
+
+    const [portafolio, setPortafolio] = useState(PORTAFOLIO_DATA)
+
     return (
         <div
-
             className=" [&>p]:mb-2">
-            <h1 className="font-bold text-2xl mb-4">Services</h1>
-
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit deserunt qui quod tempore quibusdam, velit, reprehenderit quia ducimus ipsum eveniet sapiente maxime! Voluptate doloremque labore laudantium quasi nulla incidunt deserunt esse id iusto numquam illo, assumenda ea adipisci dolorem modi vitae odio error cupiditate similique iure. Corrupti sunt consequuntur consectetur.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam praesentium eveniet architecto, quos cum aspernatur aliquam numquam provident sint?
-            </p>
+            {
+                portafolio.length > 0 ? "" : <Error404 />
+            }
         </div>
     )
 }

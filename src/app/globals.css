@@ -23,6 +23,7 @@
   --customBlack: #060606;
   --customBlack10: rgba(6, 6, 6, 0.6);
   --customRed: #BB2B2B;
+  --customRed50: rgba(187, 43, 43, 0.2);
 
 
 }
@@ -52,4 +53,11 @@ body {
   /* background-image: url("https://as2.ftcdn.net/v2/jpg/01/68/24/63/1000_F_168246324_GMTy91hHJbA7hHe6PO2hfIItv5EnZLCf.jpg");
   background-size: cover;
   background-repeat: no-repeat; */
+}
+
+@media (min-width: 640px) {
+  h3 {
+    text-shadow: 0px 0px 8px var(--customBlack);
+  }
+
 }

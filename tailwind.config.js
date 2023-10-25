@@ -21,7 +21,8 @@ module.exports = {
         customWhite: 'var(--customWhite)',
         customBlack: 'var(--customBlack)',
         customBlack10: 'var(--customBlack10)',
-        customRed: 'var(--customRed)'
+        customRed: 'var(--customRed)',
+        customRed50: 'var(--customRed50)'
       }
     },
   },

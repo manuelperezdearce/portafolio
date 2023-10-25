@@ -1,9 +1,8 @@
 
 
+
 export default function About({ styles }) {
-
     const imgAnimation = "animate-fade-right animate-once animate-duration-250 animate-delay-250 "
-
 
     return (
         <div
@@ -22,7 +21,10 @@ export default function About({ styles }) {
                 <p className="sm:w-1/2 text-xl sm-text-2xl lg:text-4xl text-center animate-fade-left animate-once animate-duration-250 animate-delay-500  mt- lg:mt-20">
                     Hola, bienvenido a mi website!<br />
                     Aquí podrás conocer un poco más de los trabajos que he realizado, además de las tecnologías que utilizo para crear sitios web asombrosos!
+                    <br />
+                    ...o bien, si quieres contactarme <a className="uppercase text-customRed" href="">pincha aquí</a>
                 </p>
+
 
 
             </div>

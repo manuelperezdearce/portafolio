@@ -5,8 +5,10 @@ import Section from "./components/Section/Section";
 import SectionFull from "./components/Section/SectionFull";
 import SideMenu from "./components/SideMenu/SideMenu";
 import About from "./pages/About";
-import Home from "./pages/Home";
-import Services from "./pages/Portafolio";
+import Tecnologias from "./pages/Tecnologias";
+import Portafolio from "./pages/Portafolio";
+import Contacto from "./pages/Contacto";
+
 
 const sectionParCSS = "bg-transparent"
 const sectionImparCSS = "bg-transparent"
@@ -21,13 +23,17 @@ export default function App() {
           <About />
         </SectionFull>
         <Section name="Portafolio" styles={sectionImparCSS}>
-          <Services />
+          <Portafolio />
         </Section>
         <Section name="Tecnologías" styles={sectionParCSS}>
-          <Home />
+          <Tecnologias />
         </Section>
-        <SideMenu />
+        <Section name="Contacto" styles={sectionParCSS}>
+          <Contacto />
+        </Section>
+
       </main>
+      <SideMenu />
       <Footer />
     </div>
   )
