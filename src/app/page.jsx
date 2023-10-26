@@ -9,8 +9,7 @@ import About from "./pages/About";
 import Tecnologias from "./pages/Tecnologias";
 import Portafolio from "./pages/Portafolio";
 import Contacto from "./pages/Contacto";
-import { useState } from "react";
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { toggleATE } from "./features/slices/MainScrollSlice";
 
 
@@ -19,12 +18,9 @@ const sectionImparCSS = "bg-transparent"
 
 export default function App() {
 
-  // const { toggleATE } = useSelector(state => state?.toggleATE)
   const dispatch = useDispatch()
-  const [MainScroll, setMainScroll] = useState()
 
   const handleScroll = (e) => {
-
     const scrollTop = e.target.scrollTop
     const scrollHeight = e.target.scrollHeight
     const offsetHeight = e.target.offsetHeight

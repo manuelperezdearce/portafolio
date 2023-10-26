@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
     isOpen: false,
-    isFixed: false
+    isFixed: true,
 }
 
 
@@ -12,10 +12,10 @@ const FooterSlice = createSlice({
     initialState,
     reducers: {
         toggleOpen: (state, action) => {
-            state.isATE = action.payload
+            state.isOpen = action.payload
         },
         toggleFixed: (state, action) => {
-            state.isATE = action.payload
+            state.isFixed = action.payload
         },
     }
 })

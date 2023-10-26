@@ -6,7 +6,7 @@ import FooterReducer from '../slices/FooterSlice'
 export const store = configureStore({
     reducer: {
         mainScroll: MainScrollReducer,
-        footerSlice: FooterReducer
+        footerSlice: FooterReducer,
 
     }
 })
