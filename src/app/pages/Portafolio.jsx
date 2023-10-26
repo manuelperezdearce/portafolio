@@ -10,7 +10,7 @@ export default function Portafolio({ styles }) {
 
     return (
         <div
-            className=" [&>p]:mb-2">
+        >
             {
                 portafolio.length > 0 ? "" : <Error404 />
             }

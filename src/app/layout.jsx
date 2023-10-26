@@ -1,12 +1,9 @@
-import Navbar from './components/Navbar/Navbar'
+
+'use client'
+
+import { Provider } from 'react-redux'
+import { store } from './features/store/store'
 import './globals.css'
-
-export const metadata = {
-  title: 'Portafolio',
-  description: '',
-}
-
-
 
 export default function RootLayout({ children }) {
 
@@ -14,7 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={bodyStyles} >
-        {children}
+        <Provider store={store}>
+          {children}
+        </Provider>
       </body>
     </html>
   )

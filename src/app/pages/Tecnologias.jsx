@@ -105,7 +105,7 @@ export default function Tecnologias() {
     return (
 
 
-        <section className="[&>*]:mb-30 py-10 backdrop-blur-md rounded-xl  ">
+        <section className="[&>*]:mb-30 py-10 rounded-xl  ">
             <h2 className="font-title text-3xl sm:text-4xl text-center uppercase mb-10">Herramientas y Tecnologias</h2>
             <article className="flex flex-wrap justify-evenly [&>div]:w-full [&>div]:lg:w-1/3 [&>div]:justify-evenly [&>div]:sm:justify-center ">
                 <div className="flex flex-wrap">

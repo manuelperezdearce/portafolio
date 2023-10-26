@@ -2,6 +2,9 @@
 import { MdOutlineArrowBackIosNew } from 'react-icons/md'
 import { FaLinkedinIn, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 import { useState } from "react"
+import { useSelector, useDispatch } from 'react-redux'
+import FooterSlice from '@/app/features/slices/FooterSlice'
+
 
 
 
@@ -9,9 +12,10 @@ import { useState } from "react"
 export default function Footer() {
 
 
-
+    const { isATE } = useSelector(state => state?.mainScroll.isATE)
     const [open, setOpen] = useState(false)
     const [fixed, setFixed] = useState(true)
+
     function handleOpenState() {
         fixed && (open ? setOpen(false) : setOpen(true))
     }
