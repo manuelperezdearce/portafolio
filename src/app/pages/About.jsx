@@ -1,4 +1,4 @@
-
+import { Link } from "react-scroll"
 
 
 export default function About({ styles }) {
@@ -6,23 +6,29 @@ export default function About({ styles }) {
 
     return (
         <div
-            className={`${styles} min-h-[80vh] flex flex-col justify-center my-10 sm:my-20 [&>div]:flex text-customWhite relative `}
+            className={`${styles} min-h-screen md:h-screen flex flex-col justify-center md:justify-center [&>div]:flex text-customWhite relative px-4 md:px-10`}
         >
-            <div className="p-3 mx-auto sm:mx-0 mb-5 sm:mb-0 sm:me-auto aspect-square rounded-full sm:rounded-none w-1/2 sm:w-1/2 overflow-hidden">
-                <img className={`${imgAnimation} rounded-full sm:rounded-none aspect-square object-cover object-top z-20`} src="/profile2.png" alt="" />
+            <div className="mx-auto overflow-hidden translate-y-[50px] md:-translate-y-[100px] md:absolute before:relative w-[150px] sm:w-[300px] md:w-[600px]">
+                <img className={`${imgAnimation} z-20`} src="/profile2.png" alt="" />
             </div>
-            <div className="w-full md:[&>*]:w-[70%] lg:[&>*]:w-[70%] xl:[&>*]:w-[60%] text-center sm:[&>*]:ms-auto  sm:absolute h-full  z-20 flex flex-col justify-end sm:justify-center px-5">
+            <div className="w-full md:w-[680px] md:ms-auto text-center h-full  z-20 flex flex-col items-center sm:justify-center ">
 
-                <h1 className="font-title text-2xl sm:text-4xl md:text-5xl lg:text-6xl 2xl:text-7xl mb-4 uppercase z-20  animate-fade-left animate-once animate-duration-1000 leading-tight sm:text-left whitespace-nowrap break-al  ">
+                <h1 className="font-title text-2xl sm:text-4xl md:text-6xl mb-4 uppercase z-20  animate-fade-left animate-once animate-duration-1000 leading-tight sm:text-left whitespace-nowrap break-al  ">
                     MANUEL <br /> PÉREZ DE ARCE
                 </h1>
-                <h2 className="text-customRed font-bold text-xl sm:text-2xl lg:text-4xl 2xl:text-6xl mb-4 z-10 animate-fade-left animate-once animate-duration-1000  sm:whitespace-nowrap">Desarrollador front end
+                <h2 className="text-customRed font-bold sm:text-left text-2xl md:text-5xl mb-4 z-10 animate-fade-left animate-once animate-duration-1000 uppercase sm:whitespace-nowrap">Desarrollador front end
                 </h2>
-                <p className="sm:w-1/2 text-xl sm-text-2xl lg:text-4xl text-center animate-fade-left animate-once animate-duration-250 animate-delay-500  mt- lg:mt-20">
+                <p className="md:w-[680px] text-xl sm:text-4xl text-center animate-fade-left animate-once animate-duration-250 animate-delay-500 md:mt-20">
                     Hola, bienvenido a mi website!<br />
                     Aquí podrás conocer un poco más de los trabajos que he realizado, además de las tecnologías que utilizo para crear sitios web asombrosos!
                     <br />
-                    ...o bien, si quieres contactarme <a className="uppercase text-customRed" href="">pincha aquí</a>
+                    ...o bien, si quieres contactarme <Link
+                        role="button"
+                        containerId="main"
+                        to="Contacto"
+                        smooth={true}
+                        className="text-customRed"
+                    >pincha aquí</Link>
                 </p>
 
 

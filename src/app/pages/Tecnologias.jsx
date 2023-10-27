@@ -95,6 +95,22 @@ const TOOLS = [
         id: '8',
         url: '/tecnologias/tools/8.png',
     },
+    {
+        id: '9',
+        url: '/tecnologias/tools/9.png',
+    },
+    {
+        id: '10',
+        url: '/tecnologias/tools/10.png',
+    },
+    {
+        id: '11',
+        url: '/tecnologias/tools/11.png',
+    },
+    {
+        id: '12',
+        url: '/tecnologias/tools/12.png',
+    },
 ]
 
 

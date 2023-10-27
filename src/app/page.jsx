@@ -25,17 +25,15 @@ export default function App() {
     const scrollHeight = e.target.scrollHeight
     const offsetHeight = e.target.offsetHeight
     if ((offsetHeight + scrollTop) >= scrollHeight) {
-      console.log("llegamos al final")
       dispatch(toggleATE(true))
     }
     else
       dispatch(toggleATE(false))
-
   }
 
   return (
 
-    <div className="h-[100vh] flex flex-col justify-top bg-customBlack10">
+    <div name='CONTAINER' className="h-[100vh] flex flex-col justify-top bg-customBlack10">
 
       <Navbar />
       <main id="main" className="w-screen overflow-hidden overflow-y-auto relative"
@@ -49,10 +47,9 @@ export default function App() {
         <Section name="Tecnologías" styles={sectionParCSS}>
           <Tecnologias />
         </Section>
-        {/* <Section name="Contacto" styles={sectionParCSS}>
+        <Section name="Contacto" styles={sectionParCSS} >
           <Contacto />
-        </Section> */}
-
+        </Section>
       </main>
       <SideMenu />
       <Footer />
