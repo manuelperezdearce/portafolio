@@ -1,5 +1,6 @@
 import CardTech from "../components/CardTech"
 import ServicesCard from "../components/ServicesCard"
+import { MdOutlineNavigateNext } from "react-icons/md"
 
 
 const TECHS = [
@@ -121,26 +122,37 @@ export default function Tecnologias() {
     return (
 
 
-        <section className="[&>*]:mb-30 py-10 rounded-xl  ">
+        <section className="[&>*]:mb-30 py-10 rounded-xl">
+
             <h2 className="font-title text-3xl sm:text-4xl text-center uppercase mb-10">Herramientas y Tecnologias</h2>
-            <article className="flex flex-wrap justify-evenly [&>div]:w-full [&>div]:lg:w-1/3 [&>div]:justify-evenly [&>div]:sm:justify-center ">
-                <div className="flex flex-wrap">
-                    {
-                        TECHS.map(item => {
-                            return (
-                                <CardTech key={item.id} url={item.url} />
-                            )
-                        })
-                    }
+            <article className="flex flex-col justify-evenly [&>div]:w-full  [&>div]:justify-evenly [&>div]:sm:justify-center">
+                <div className="relative">
+                    <MdOutlineNavigateNext className="absolute z-10 text-8xl lg:hidden  bottom-[40%] -right-5 sm:right-5" />
+                    <MdOutlineNavigateNext className="absolute z-10 text-8xl lg:hidden bottom-[40%] rotate-180 -left-5 sm:left-5" />
+                    <div className="relative flex lg:flex-wrap overflow-auto mb-10 py-20 justify-evenly">
+
+                        {
+                            TECHS.map(item => {
+                                return (
+                                    <CardTech key={item.id} url={item.url} />
+                                )
+                            })
+                        }
+                    </div>
                 </div>
-                <div className="flex flex-wrap ">
-                    {
-                        TOOLS.map(item => {
-                            return (
-                                <CardTech key={item.id} url={item.url} />
-                            )
-                        })
-                    }
+                <div className="relative">
+                    <MdOutlineNavigateNext className="absolute z-10 text-8xl lg:hidden  bottom-[40%] -right-5 sm:right-5" />
+                    <MdOutlineNavigateNext className="absolute z-10 text-8xl lg:hidden bottom-[40%] rotate-180 -left-5 sm:left-5" />
+                    <div className="relative flex lg:flex-wrap overflow-auto mb-10 py-20 justify-evenly">
+
+                        {
+                            TOOLS.map(item => {
+                                return (
+                                    <CardTech key={item.id} url={item.url} />
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </article>
 

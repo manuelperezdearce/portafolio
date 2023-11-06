@@ -22,7 +22,10 @@ module.exports = {
         customBlack: 'var(--customBlack)',
         customBlack10: 'var(--customBlack10)',
         customRed: 'var(--customRed)',
-        customRed50: 'var(--customRed50)'
+        customRed50: 'var(--customRed50)',
+        customCalipso: 'var(--customCalipso)',
+        customCalipso10: 'var(--customCalipso10)'
+
       }
     },
   },

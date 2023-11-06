@@ -10,7 +10,9 @@ export default function Portafolio({ styles }) {
 
     return (
         <div
+            className="text-center"
         >
+            <h2 className="font-title text-4xl uppercase mb-10">Portafolio</h2>
             {
                 portafolio.length > 0 ? "" : <Error404 />
             }
