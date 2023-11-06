@@ -11,6 +11,7 @@ import Portafolio from "./pages/Portafolio";
 import Contacto from "./pages/Contacto";
 import { useDispatch } from 'react-redux'
 import { toggleATE } from "./features/slices/MainScrollSlice";
+import About2 from "./pages/About";
 
 
 const sectionParCSS = "bg-transparent"
@@ -33,14 +34,16 @@ export default function App() {
 
   return (
 
-    <div name='CONTAINER' className="h-[100vh] flex flex-col justify-top bg-customBlack10">
+    <div name='CONTAINER' className="h-[100vh] flex flex-col justify-top bg-customBlack10 relative">
+
 
       <Navbar />
-      <main id="main" className="w-screen overflow-hidden overflow-y-auto relative"
+      <main id="main" className="w-screen overflow-x-hidden relative"
         onScroll={(e) => handleScroll(e)}>
         <SectionFull name="Sobre mí" styles={sectionParCSS}>
           <About />
         </SectionFull>
+
         <Section name="Portafolio" styles={sectionImparCSS}>
           <Portafolio />
         </Section>
