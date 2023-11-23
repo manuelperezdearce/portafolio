@@ -55,7 +55,7 @@ export default function App() {
         </Section>
       </main>
       <SideMenu />
-      <Footer />
+      {/* <Footer /> */}
     </div >
   )
 }

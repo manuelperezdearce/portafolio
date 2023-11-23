@@ -20,7 +20,7 @@ export default function Footer() {
     `
 
     const arrowStyle = `duration-150 ease-linear ${isOpen || isATE ? "-rotate-90" : "rotate-90"} `
-    const sectionStyle = "flex w-full max-w-[1600px] justify-between [&>*]:w-1/3 mt-10"
+    const sectionStyle = "flex w-full max-w-[1600px] justify-between [&>*]:w-1/2 mt-5"
     const articleStyle = "flex flex-col w-1/2 max-w-[300px] text-center"
     const articleCreatedBy = "flex flex-col sm:flex-row sm:gap-2 text-center mt-4 flex"
     const MediaDiv = "flex justify-evenly"
@@ -43,7 +43,7 @@ export default function Footer() {
             <section className={sectionStyle}>
 
                 <article className={articleStyle}>
-                    <p>Contáctanos</p>
+                    <p>Contáctame</p>
                     <div className={MediaDiv}>
                         <FaInstagram />
                         <FaLinkedinIn />

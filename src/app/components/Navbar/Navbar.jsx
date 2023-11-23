@@ -36,7 +36,7 @@ export default function Navbar() {
 
 
     return (
-        <header className="w-[100vw] bg-primary10 backdrop-blur-xl text-customWhite md:h-28 flex items-center justify-center shadow-lg shadow-customBlack10 text-sm font-light fixed  px-8 duration-150 z-50 rounded-b-lg"
+        <header className="w-[100vw] bg-primary10 backdrop-blur-xl text-customWhite md:h-[100px] flex items-center justify-center shadow-lg shadow-customBlack10 text-sm font-light fixed  px-8 duration-150 z-50 rounded-b-lg"
 
         >
             <img className="hidden md:block absolute -bottom-1 -right-10" src="/frame-nav/frame-nav1.png" alt="" />

@@ -17,7 +17,7 @@ export default function About({ styles }) {
                     <h1 className="font-title text-2xl sm:text-5xl md:text-6xl mb-4 uppercase z-30  animate-fade-left animate-once animate-duration-1000 leading-tight sm:text-left whitespace-nowrap break-al  ">
                         <span className="text-4xl sm:text-6xl ">MANUEL</span> <br /> PÉREZ DE ARCE
                     </h1>
-                    <h2 className="text-customRed font-bold sm:text-left text-2xl sm:text-4xl md:text-5xl z-30 animate-fade-left animate-once animate-duration-1000 uppercase sm:whitespace-nowrap">
+                    <h2 className="text-customRed font-bold sm:text-left text-2xl sm:text-4xl md:text-5xl z-50 animate-fade-left animate-once animate-duration-1000 uppercase sm:whitespace-nowrap">
                         Desarrollador front end
                     </h2>
                     <span className=" md:right-0 bottom-10 sm:bottom-0 absolute  block xl:hidden ">
