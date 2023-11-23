@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from "react"
-
 import { Link } from "react-scroll"
 import NavUtilitieslNormal from "./components/NavUtilitiesNormal"
 import NavUtilitieslBurger from "./components/NavUtilitiesBurger"
@@ -12,35 +11,34 @@ const navItems = [
     },
     {
         id: '1',
-        name: 'Portafolio'
+        name: 'Experiencia'
     },
     {
         id: '2',
-        name: 'Tecnologías'
+        name: 'Portafolio'
     },
     {
         id: '3',
+        name: 'Tecnologías'
+    },
+    {
+        id: '4',
         name: 'Contacto'
     },
 
 ]
 
-export default function Navbar() {
+export default function Navbar({ scrollTop }) {
 
     const [activeIndex, setActiveIndex] = useState("Inicio")
 
     const handleActiveIndex = (e) => {
         setActiveIndex(e)
     }
-
-
-
     return (
-        <header className="w-[100vw] bg-primary10 backdrop-blur-xl text-customWhite md:h-28 flex items-center justify-center shadow-lg shadow-customBlack10 text-sm font-light fixed  px-8 duration-150 z-50 rounded-b-lg"
-
+        <header className={`w-[100vw] bg-primary10 backdrop-blur-xl opacity-[${scrollTop}% ] text-customWhite md:h-16 flex items-center justify-center shadow-lg shadow-customBlack10 text-sm font-light fixed  px-8 duration-150 z-50 rounded-b-lg`}
         >
-            <img className="hidden md:block absolute -bottom-1 -right-10" src="/frame-nav/frame-nav1.png" alt="" />
-            <img className="hidden md:block absolute -bottom-1 -left-10 rotate" src="/frame-nav/frame-nav2.png" alt="" />
+            <p>{scrollTop}</p>
             <nav className="w-[90%] max-w-[1600px] md:w-[100%] flex justify-between items-center uppercase z-50">
                 <div className="h-10 duration-150 flex items-center [&>*]:me-5">
                     <Link role="button" to="Inicio" smooth={true}>

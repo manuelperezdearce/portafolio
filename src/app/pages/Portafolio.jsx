@@ -2,7 +2,9 @@
 import { useState } from "react"
 import Error404 from "../components/Error404"
 
-const PORTAFOLIO_DATA = []
+const PORTAFOLIO_DATA = [
+
+]
 
 export default function Portafolio({ styles }) {
 

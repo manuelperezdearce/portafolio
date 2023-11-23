@@ -10,8 +10,10 @@ import Tecnologias from "./pages/Tecnologias";
 import Portafolio from "./pages/Portafolio";
 import Contacto from "./pages/Contacto";
 import { useDispatch } from 'react-redux'
-import { toggleATE } from "./features/slices/MainScrollSlice";
+import { toggleATE, toggleTOP } from "./features/slices/MainScrollSlice";
 import About2 from "./pages/About";
+import { useState } from "react";
+import Experiencia from "./pages/Experiencia";
 
 
 const sectionParCSS = "bg-transparent"
@@ -19,9 +21,12 @@ const sectionImparCSS = "bg-transparent"
 
 export default function App() {
 
+
+
   const dispatch = useDispatch()
 
   const handleScroll = (e) => {
+    // console.log(scrollTop, e.target.scrollHeight)
     const scrollTop = e.target.scrollTop
     const scrollHeight = e.target.scrollHeight
     const offsetHeight = e.target.offsetHeight
@@ -43,7 +48,9 @@ export default function App() {
         <SectionFull name="Sobre mí" styles={sectionParCSS}>
           <About />
         </SectionFull>
-
+        <Section name="Experiencia" styles={sectionImparCSS}>
+          <Experiencia />
+        </Section>
         <Section name="Portafolio" styles={sectionImparCSS}>
           <Portafolio />
         </Section>
