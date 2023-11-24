@@ -15,6 +15,7 @@ export default function NavUtilitieslNormal({ navItems, handleActiveIndex, activ
                                 smooth={true}
                                 spy={true}
                                 containerId="main"
+                                duration={500}
                             >
                                 {item.name}
                             </Link>
