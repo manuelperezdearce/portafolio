@@ -14,9 +14,10 @@ export default function About({ styles }) {
             <span className="hidden xl:block">
                 <ProfilePhoto />
             </span>
-            <div className="w-full max-w-[400px] sm:max-w-[680px]  py-20 text-center h-full z-40 flex flex-col items-center justify-center  md:px-0">
+            <div className="w-full min-h-[800px] md:min-h-[950px] max-w-[400px] sm:max-w-[680px]  py-20 text-center z-40 flex flex-col items-center justify-center  md:px-0">
                 <div className="w-full text-center h-full z-40 flex flex-col items-center justify-center relative" >
-                    <h1 className="font-title text-2xl sm:text-5xl md:text-6xl mb-4  z-30 uppercase animate-fade-left animate-once animate-duration-1000 leading-tight sm:text-left whitespace-nowrap break-al  ">
+                    <h1 className="font-title font-extrabold                    bg-gradient-to-r from-[rgb(71,253,214)] via-[rgb(117,25,110)] to-[rgb(247,18,228)]
+                    text-2xl sm:text-5xl md:text-6xl mb-4 z-30 uppercase animate-fade-left animate-once animate-duration-1000 leading-tight sm:text-left whitespace-nowrap break-al  ">
                         <span className="text-4xl sm:text-6xl ">MANUel</span> <br /> PÉREZ DE ARCE
                     </h1>
                     <h2 className="relative text-customRed font-bold sm:text-left text-2xl sm:text-4xl md:text-5xl z-30 animate-fade-left animate-once animate-duration-1000 uppercase sm:whitespace-nowrap">
