@@ -12,7 +12,7 @@ export default function TimelineExperience({ experiencia }) {
         experiencia.length > 0 &&
         experiencia.map(item => {
             return (
-                <article key={item} className="text-xl font-light relative text-left ps-8 mb-10">
+                <article key={item.cargo} className="text-xl font-light relative text-left ps-8 mb-10">
                     <div className="w-6 h-6 bg-customRed rounded-full absolute left-0 -translate-x-[54%] translate-y-[50%]"></div>
                     <h3 className="uppercase text-2xl font-semibold">{item.cargo}</h3>
                     <h4 className="mb-4">{item.fecha}</h4>
@@ -21,12 +21,12 @@ export default function TimelineExperience({ experiencia }) {
                         {
                             item.logros.map(logro => {
                                 return (
-                                    <>
+                                    <div key={logro}>
                                         <div className="absolute left-0 translate-y-[300%] rounded-full  w-6 h-1 bg-customWhite"></div>
-                                        <li className="mb-1" key={logro}>
+                                        <li className="mb-1">
                                             {logro}
                                         </li>
-                                    </>
+                                    </div>
 
                                 )
                             })

@@ -14,7 +14,16 @@ const PORTAFOLIO_DATA = [
 
     },
     {
-        title: "Code Toolkit @nlpz",
+        title: "Code Toolki @nlpz",
+        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Voluptates quo impedit reiciendis repellat provident?Veritatis temporibus perspiciatis repellendus modi beatae!",
+        tools: "React Javascript CSS",
+        picture: "https://www.deployhq.com/images/deploy/opengraph-banner.png",
+        urlRepository: "",
+        urlDeploy: "",
+
+    },
+    {
+        title: "Code Toolkit @lpz",
         description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Voluptates quo impedit reiciendis repellat provident?Veritatis temporibus perspiciatis repellendus modi beatae!",
         tools: "React Javascript CSS",
         picture: "https://www.deployhq.com/images/deploy/opengraph-banner.png",
@@ -32,16 +41,7 @@ const PORTAFOLIO_DATA = [
 
     },
     {
-        title: "Code Toolkit @nlpz",
-        description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Voluptates quo impedit reiciendis repellat provident?Veritatis temporibus perspiciatis repellendus modi beatae!",
-        tools: "React Javascript CSS",
-        picture: "https://www.deployhq.com/images/deploy/opengraph-banner.png",
-        urlRepository: "",
-        urlDeploy: "",
-
-    },
-    {
-        title: "Code Toolkit @nlpz",
+        title: "Code Toolkit @nlp",
         description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.Voluptates quo impedit reiciendis repellat provident?Veritatis temporibus perspiciatis repellendus modi beatae!",
         tools: "React Javascript CSS",
         picture: "https://www.deployhq.com/images/deploy/opengraph-banner.png",
