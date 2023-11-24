@@ -3,6 +3,7 @@
 import { Button } from "flowbite-react"
 import { useState } from "react"
 import TimelineExperience from "../components/TimelineExperience"
+import { Link } from "react-scroll"
 
 const EXPERIENCIA_DATA = {
 
@@ -105,10 +106,21 @@ export default function Experiencia({ styles }) {
             <h2 className="font-title text-3xl md:text-4xl uppercase mb-10">Experiencia</h2>
             <section className="border-s-2 border-customRed">
                 <TimelineExperience experiencia={experiencia.ti} />
-                <Button className={`${more ? "absolute bottom-0 right-0 translate-y-[200%]" : "block"} mx-auto scale-150`} onClick={handleMore}>
+                <Button className={`${more ? "absolute bottom-0 right-0 translate-y-[200%]" : "block"} mx-auto scale-125 rounded-full bg-secondary`}
+                    onClick={handleMore}>
                     {
-                        !more ? "Ver más" : "Ver menos"
+                        !more ? "Ver más" : <Link
+                            onClick={handleMore}
+                            role="button"
+                            containerId="main"
+                            to="Experiencia"
+                            smooth={true}
+                            className="whitespace-nowrap rounded-full"
+                        >
+                            Ver menos
+                        </Link>
                     }
+
                 </Button>
                 <div className={`${more ? "block" : "hidden"}`}>
                     <TimelineExperience experiencia={experiencia.noti} />

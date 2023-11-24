@@ -13,7 +13,7 @@ export default function TimelineExperience({ experiencia }) {
         experiencia.map(item => {
             return (
                 <article key={item} className="text-xl font-light relative text-left ps-8 mb-10">
-                    <div className="w-6 h-6 bg-customRed rounded-full absolute left-0 -translate-x-[50%] translate-y-[50%]"></div>
+                    <div className="w-6 h-6 bg-customRed rounded-full absolute left-0 -translate-x-[54%] translate-y-[50%]"></div>
                     <h3 className="uppercase text-2xl font-semibold">{item.cargo}</h3>
                     <h4 className="mb-4">{item.fecha}</h4>
                     <p className="mb-2">{item.descripcion}</p>

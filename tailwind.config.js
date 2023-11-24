@@ -27,6 +27,15 @@ module.exports = {
         customCalipso: 'var(--customCalipso)',
         customCalipso10: 'var(--customCalipso10)'
 
+      },
+      keyframes: {
+        pulseFull: {
+          '0, 100%': { opacity: 0 },
+          '50%': { opacity: 0.8 }
+        }
+      },
+      animation: {
+        'pulseText': 'pulse 1s ease-in infinite'
       }
     },
   },
