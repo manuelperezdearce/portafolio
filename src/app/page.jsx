@@ -1,6 +1,5 @@
 'use client'
 import Footer from "./components/Footer/Footer";
-import Hero from "./components/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Section from "./components/Section/Section";
 import SectionFull from "./components/Section/SectionFull";
@@ -10,9 +9,8 @@ import Tecnologias from "./pages/Tecnologias";
 import Portafolio from "./pages/Portafolio";
 import Contacto from "./pages/Contacto";
 import { useDispatch } from 'react-redux'
-import { toggleATE, toggleTOP } from "./features/slices/MainScrollSlice";
-import About2 from "./pages/About";
-import { useState } from "react";
+import { toggleATE } from "./features/slices/MainScrollSlice";
+
 import Experiencia from "./pages/Experiencia";
 
 
@@ -39,12 +37,12 @@ export default function App() {
 
   return (
 
-    <div name='CONTAINER' className="h-[100vh] flex flex-col justify-top bg-customBlack10 relative">
+    <div name='CONTAINER' className="h-[110vh] flex flex-col justify-top bg-customBlack10 relative">
 
 
       <Navbar />
-      <main id="main" className="w-screen overflow-x-hidden relative"
-        onScroll={(e) => handleScroll(e)}>
+      <main id="main" name="" className="w-screen overflow-x-hidden relative"
+      >
         <SectionFull name="Sobre mí" styles={sectionParCSS}>
           <About />
         </SectionFull>
@@ -60,9 +58,12 @@ export default function App() {
         <Section name="Contacto" styles={sectionParCSS} >
           <Contacto />
         </Section>
+
       </main>
       <SideMenu />
       <Footer />
+
+
     </div >
   )
 }

@@ -1,13 +1,12 @@
-import { MdOutlineArrowBackIosNew } from 'react-icons/md'
-import { FaLinkedinIn, FaInstagram, FaWhatsapp } from 'react-icons/fa'
-import { useSelector, useDispatch } from 'react-redux'
-import { toggleFixed, toggleOpen } from '../../features/slices/FooterSlice'
+import { toggleOpen } from "@/app/features/slices/FooterSlice"
+import { MdOutlineArrowBackIosNew } from "react-icons/md"
+import { useDispatch, useSelector } from "react-redux"
+
 
 export default function Footer() {
     const { isOpen, isFixed } = useSelector(state => state?.footerSlice)
     const { isATE } = useSelector(state => state?.mainScroll)
     const dispatch = useDispatch()
-
     function handleOpenState() {
         isFixed && (isOpen ? dispatch(toggleOpen(false)) : dispatch(toggleOpen(true)))
     }
