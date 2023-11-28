@@ -1,5 +1,5 @@
 import { Link } from "react-scroll"
-import ProfilePhoto from "../components/Navbar/components/ProfilePhoto"
+import ProfilePhoto from "../components/ProfilePhoto"
 import { Button } from "flowbite-react"
 
 
@@ -14,14 +14,17 @@ export default function About({ styles }) {
             <span className="hidden xl:block">
                 <ProfilePhoto />
             </span>
-            <div className="w-full min-h-[800px] md:min-h-[950px] max-w-[400px] sm:max-w-[680px]  py-20 text-center z-40 flex flex-col items-center justify-center  md:px-0">
-                <div className="w-full text-center h-full z-40 flex flex-col items-center justify-center relative" >
-                    <h1 className="font-title font-extrabold                    bg-gradient-to-r from-[rgb(71,253,214)] via-[rgb(117,25,110)] to-[rgb(247,18,228)]
-                    text-2xl sm:text-5xl md:text-6xl mb-4 z-30 uppercase animate-fade-left animate-once animate-duration-1000 leading-tight sm:text-left whitespace-nowrap break-al  ">
-                        <span className="text-4xl sm:text-6xl ">MANUel</span> <br /> PÉREZ DE ARCE
+            <div className="w-full min-h-[800px] md:min-h-[950px] max-w-[400px] sm:max-w-[680px]   text-center z-40 flex flex-col items-center justify-center  md:px-0">
+                <div className="w-full text-center h-full z-40 flex flex-col items-center md:items-start justify-center relative" >
+                    <h1 className="font-title font-black                  bg-gradient-to-l from-customCalipso via-customCalips to-customFucsia
+                    drop-shadow-md
+                    text-[38px] sm:text-5xl md:text-6xl lg:text-8xl mb-4 z-30 uppercase animate-fade-left animate-once animate-duration-1000 leading-tight sm:text-left whitespace-nowrap break-al  ">
+                        MANUel <br /> PÉREZ DE ARCE
                     </h1>
-                    <h2 className="relative text-customRed font-bold sm:text-left text-2xl sm:text-4xl md:text-5xl z-30 animate-fade-left animate-once animate-duration-1000 uppercase sm:whitespace-nowrap">
-                        Desarrollador front end
+                    <h2 className="relative drop-shadow-md text-[rgba(23,45,66,1)] 
+                    bg-gradient-to-r from-customCalipso via-customCalips to-customFucsia
+                    font-black sm:text-left text-2xl sm:text-4xl md:text-5xl z-30 animate-fade-left animate-once animate-duration-1000 uppercase sm:whitespace-nowrap">
+                        Desarrollador Web
                         <span className="absolute -right-4 z-40 w-3 h-full bg-customRed animate-pulseText" />
                     </h2>
 

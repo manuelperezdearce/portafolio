@@ -37,9 +37,7 @@ export default function App() {
 
   return (
 
-    <div name='CONTAINER' className="h-[110vh] flex flex-col justify-top bg-customBlack10 relative">
-
-
+    <div name='CONTAINER' className="h-screen flex flex-col justify-top bg-customBlack10 relative">
       <Navbar />
       <main id="main" name="" className="w-screen overflow-x-hidden relative"
       >
@@ -58,7 +56,6 @@ export default function App() {
         <Section name="Contacto" styles={sectionParCSS} >
           <Contacto />
         </Section>
-
       </main>
       <SideMenu />
       <Footer />

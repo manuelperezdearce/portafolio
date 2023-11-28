@@ -103,7 +103,7 @@ export default function Experiencia({ styles }) {
         <div
             className="text-center m:px-10 max-w-[900px] mx-auto relative"
         >
-            <h2 className="font-title text-3xl md:text-4xl uppercase mb-10">Experiencia</h2>
+            <h3 className="font-title font-black text-3xl md:text-4xl uppercase mb-10">Experiencia</h3>
             <section className="border-s-2 border-customRed">
                 <TimelineExperience experiencia={experiencia.ti} />
                 <Button className={`${more ? "absolute bottom-0 right-0 translate-y-[200%]" : "block"} mx-auto scale-125 rounded-full bg-secondary`}
