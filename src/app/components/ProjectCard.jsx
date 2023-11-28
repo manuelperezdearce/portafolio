@@ -8,7 +8,7 @@ export default function ProjectCard({ item }) {
                     alt="" />
             </div>
 
-            <div className="w-[300px] mx-auto text-left [&>*]:mb-4">
+            <div className="w-[300px] flex flex-col gap-2 md:gap-0 mx-auto text-left justify-between">
                 <h3 className="font-medium text-2xl title-section">{item.title}</h3>
                 <p>{item.descr}</p>
                 <div className="">

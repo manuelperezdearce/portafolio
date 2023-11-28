@@ -3,7 +3,6 @@ import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Section from "./components/Section/Section";
 import SectionFull from "./components/Section/SectionFull";
-import SideMenu from "./components/SideMenu/SideMenu";
 import About from "./pages/About";
 import Tecnologias from "./pages/Tecnologias";
 import Portafolio from "./pages/Portafolio";
@@ -57,7 +56,6 @@ export default function App() {
           <Contacto />
         </Section>
       </main>
-      <SideMenu />
       <Footer />
 
 

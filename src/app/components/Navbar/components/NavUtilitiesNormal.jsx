@@ -2,7 +2,7 @@ import { Link } from "react-scroll"
 
 export default function NavUtilitieslNormal({ navItems, handleActiveIndex, activeIndex }) {
     return (
-        <ul className="hidden sm:flex gap-4  justify-end ">
+        <ul className="hidden sm:flex gap-4 justify-end ">
             {
                 navItems?.map(item => {
                     return (

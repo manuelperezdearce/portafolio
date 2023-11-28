@@ -7,7 +7,9 @@ import ProjectCard from "../components/ProjectCard"
 export default function Portafolio({ styles }) {
 
     const [portafolio, setPortafolio] = useState(Object.values(PORTFOLIO_DATA.data.portafolio))
-    console.log(Object.values(PORTFOLIO_DATA.data.portafolio))
+    const latest = portafolio.filter(item => item.fecha > 2)
+    console.log(latest)
+    // console.log(Object.values(PORTFOLIO_DATA.data.portafolio))
     return (
         <div
             className="text-center"
@@ -23,10 +25,6 @@ export default function Portafolio({ styles }) {
                     })
                 }
             </div>
-
-            {/* {
-                portafolio.length > 0 ? "" : <Error404 />
-            } */}
         </div>
     )
 }
