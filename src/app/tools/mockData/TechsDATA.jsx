@@ -7,12 +7,12 @@ export const TECHSDATA = [
     },
     {
         type: 'tool',
-        name: "Adobe Ilustrator",
+        name: "Ilustrator",
         url: '/tecnologias/adobe-ilustrator.png'
     },
     {
         type: 'tool',
-        name: "Adobe Photoshop",
+        name: "Photoshop",
         url: '/tecnologias/adobe-photoshop.png'
     },
     {

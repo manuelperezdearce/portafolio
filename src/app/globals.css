@@ -30,6 +30,7 @@
   --customRed50: rgba(187, 43, 43, 0.2);
   --customCalipso: rgb(18, 244, 252);
   --customFucsia: rgb(247, 18, 228);
+  --customFucsia2: rgb(151, 113, 238);
   --customCalipso10: rgba(18, 244, 252, 0.1);
 
 
@@ -54,6 +55,7 @@
 *::-webkit-scrollbar-thumb {
   background-color: var(--secondary80);
   border-radius: 10px;
+  height: 200px;
   /* border: 1px solid var(--customBlack); */
 }
 
@@ -64,7 +66,7 @@
 
 @media (min-width: 1024px) {
   h3 {
-    text-shadow: 0px 0px 8px var(--customBlack);
+    text-shadow: 0px 0px 5px var(--customBlack10);
   }
 
   ::-webkit-scrollbar {

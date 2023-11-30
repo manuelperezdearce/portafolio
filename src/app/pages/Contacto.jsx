@@ -15,7 +15,7 @@ export default function Contacto() {
                 <a target="_blank" rel="noopener noreferrer" href="https://www.github.com/manuelperezdearce/"><img src="/redes/3.png" alt="" /></a>
             </div>
             <h3 className="">
-                o enviarme un correo a: <br /><a className="text-[20px] font-normal sm:text-4xl text-customRed" href="mailto:manuel.perezdearce@gmail.com" type="mailto" target="_blank" rel="noopener noreferrer">manuel.perezdearce@gmail.com</a>
+                o enviarme un correo a: <br /><a className="text-[20px] font-bold sm:text-4xl text-customFucsia" href="mailto:manuel.perezdearce@gmail.com" type="mailto" target="_blank" rel="noopener noreferrer">manuel.perezdearce@gmail.com</a>
             </h3>
 
 
