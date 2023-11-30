@@ -15,10 +15,10 @@ export default function Footer() {
         dispatch(toggleOpen(true))
     }
 
-    const footerStyle = `font-light text-[1rem] w-[100vw] bg-primary10 backdrop-blur-md text-customWhite py-4 bottom-0  ${!(isOpen || isATE) && "translate-y-[100%]"}  flex flex-col items-center justify-end shadow-[0px_0px_15px_rgba(0,0,0,1)] px-8 fixed duration-300 z-50 rounded-t-lg
+    const footerStyle = `group font-light text-[1rem] w-[100vw] bg-primary10 backdrop-blur-md text-customWhite py-4 bottom-0  ${!(isOpen || isATE) && "translate-y-[100%]"}  flex flex-col items-center justify-end shadow-[0px_0px_15px_rgba(0,0,0,1)] px-8 fixed duration-300 z-50 rounded-t-lg
     `
 
-    const arrowStyle = ` duration-150 ease-linear ${isOpen || isATE ? "-rotate-90" : "rotate-90 w-10 h-10  "} `
+    const arrowStyle = `delay-300 duration-150 ease-linear ${isOpen || isATE ? "-rotate-90" : "rotate-90 w-10 h-10  "} `
     const articleCreatedBy = "flex flex-col sm:flex-row sm:gap-2 text-center mt-4 flex"
 
 
@@ -31,7 +31,7 @@ export default function Footer() {
         >
 
 
-            <span className={`p-1 z-40 bg-secondary rounded-full absolute ${!(isOpen || isATE) ? "-top-[25px]" : "-top-[12px]"} shadow-sm`}>
+            <span className={`delay-300 duration-150 p-1 z-40 bg-secondary rounded-full absolute ${!(isOpen || isATE) ? "-top-[28px]" : "-top-[12px]"} shadow-sm`}>
                 <MdOutlineArrowBackIosNew className={arrowStyle} />
             </span>
 

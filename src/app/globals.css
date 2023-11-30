@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&display=swap');
 @import url('https://fonts.cdnfonts.com/css/neuropolitical');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --title: 'Neuropolitical', sans-serif;
-  --phrase: 'Barlow Condensed', sans-serif;
+  --title: 'Inter', sans-serif;
+  --phrase: 'Inter', sans-serif;
   font-family: var(phrase);
 
   /* Colors */
@@ -25,12 +29,15 @@
   --customRed: #BB2B2B;
   --customRed50: rgba(187, 43, 43, 0.2);
   --customCalipso: rgb(18, 244, 252);
+  --customFucsia: rgb(247, 18, 228);
+  --customFucsia2: rgb(151, 113, 238);
   --customCalipso10: rgba(18, 244, 252, 0.1);
 
 
 }
 
 * {
+  font-family: var(--phrase);
   scrollbar-width: auto;
   scrollbar-color: #000000 #ffffff;
 }
@@ -48,6 +55,7 @@
 *::-webkit-scrollbar-thumb {
   background-color: var(--secondary80);
   border-radius: 10px;
+  height: 200px;
   /* border: 1px solid var(--customBlack); */
 }
 
@@ -58,11 +66,17 @@
 
 @media (min-width: 1024px) {
   h3 {
-    text-shadow: 0px 0px 8px var(--customBlack);
+    text-shadow: 0px 0px 5px var(--customBlack10);
   }
 
   ::-webkit-scrollbar {
     display: block;
   }
 
+}
+
+h1,
+h2 {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

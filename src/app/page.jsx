@@ -3,7 +3,6 @@ import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Section from "./components/Section/Section";
 import SectionFull from "./components/Section/SectionFull";
-import SideMenu from "./components/SideMenu/SideMenu";
 import About from "./pages/About";
 import Tecnologias from "./pages/Tecnologias";
 import Portafolio from "./pages/Portafolio";
@@ -12,6 +11,7 @@ import { useDispatch } from 'react-redux'
 import { toggleATE } from "./features/slices/MainScrollSlice";
 
 import Experiencia from "./pages/Experiencia";
+import Test from "./pages/Test";
 
 
 const sectionParCSS = "bg-transparent"
@@ -37,9 +37,7 @@ export default function App() {
 
   return (
 
-    <div name='CONTAINER' className="h-[110vh] flex flex-col justify-top bg-customBlack10 relative">
-
-
+    <div name='CONTAINER' className="h-screen flex flex-col justify-top bg-customBlack10 relative">
       <Navbar />
       <main id="main" name="" className="w-screen overflow-x-hidden relative"
       >
@@ -55,12 +53,13 @@ export default function App() {
         <Section name="Tecnologías" styles={sectionParCSS}>
           <Tecnologias />
         </Section>
-        <Section name="Contacto" styles={sectionParCSS} >
+        {/* <SectionFull name="Contacto" styles={sectionParCSS} >
           <Contacto />
-        </Section>
-
+        </SectionFull> */}
+        {/* <Section name="Test" styles={sectionParCSS} >
+          <Test />
+        </Section> */}
       </main>
-      <SideMenu />
       <Footer />
 
 

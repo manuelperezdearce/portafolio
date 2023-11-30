@@ -25,7 +25,9 @@ module.exports = {
         customRed: 'var(--customRed)',
         customRed50: 'var(--customRed50)',
         customCalipso: 'var(--customCalipso)',
-        customCalipso10: 'var(--customCalipso10)'
+        customCalipso10: 'var(--customCalipso10)',
+        customFucsia: 'var(--customFucsia)',
+        customFucsia2: 'var(--customFucsia2)'
 
       },
       keyframes: {

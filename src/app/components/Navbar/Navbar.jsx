@@ -21,10 +21,10 @@ const navItems = [
         id: '3',
         name: 'Tecnologías'
     },
-    {
-        id: '4',
-        name: 'Contacto'
-    },
+    // {
+    //     id: '4',
+    //     name: 'Contacto'
+    // },
 
 ]
 
