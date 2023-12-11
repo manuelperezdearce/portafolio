@@ -27,8 +27,8 @@ module.exports = {
         customCalipso: 'var(--customCalipso)',
         customCalipso10: 'var(--customCalipso10)',
         customFucsia: 'var(--customFucsia)',
-        customFucsia2: 'var(--customFucsia2)'
-
+        customFucsia2: 'var(--customFucsia2)',
+        customFucsia50: 'var(--customFucsia50)',
       },
       keyframes: {
         pulseFull: {
