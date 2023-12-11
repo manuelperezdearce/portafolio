@@ -210,6 +210,21 @@
           "CSS",
           "HTML5"
         ]
+      },
+      "-NRz9rzwipzOm-tVfNJs": {
+        "date": "11/12/2023",
+        "deploy": "https://product-vaper.netlify.app/",
+        "descr": "Testing wireframe for vapes looks like.",
+        "img": "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/657741812cd1c00008b57882/screenshot_2023-12-11-17-06-29-0000.png",
+        "repo": "https://github.com/manuelPerezdeArce/product-vaper",
+        "title": "Vaper NEXTPOD STICK",
+        "tools": [
+          "React",
+          "Zustand",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
       }
     }
   }
