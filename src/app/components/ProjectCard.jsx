@@ -24,7 +24,7 @@ export default function ProjectCard({ item }) {
                 </div>
                 <div className="flex mt-4 justify-between">
                     <LinkButton text="Ir al sitio" link={item.deploy} />
-                    <LinkButton text="Ir al Repositorio" link={item.deploy} />
+                    <LinkButton text="Ir al Repositorio" link={item.repo} />
                 </div>
             </div>
 
