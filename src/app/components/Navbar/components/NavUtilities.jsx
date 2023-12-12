@@ -12,11 +12,11 @@ export default function NavUtilities({ navItems, handleActiveIndex, activeIndex 
     return (
         <>
             <IoMdMenu className="text-4xl" role='button' onClick={handleToggleMenu} />
-            <ul className={`duration-200 bg-secondary bg-opacity-80 absolute top-[40px] sm:top-[64px] w-[250px] -right-0  sm:w-[500px]  ${!toggleMenu && "-right-full"} h-screen px-6 py-10 text-customFucsia2`}>
+            <ul className={`duration-200 bg-customFucsia50 absolute top-[40px] md:top-[64px] w-2/3 -right-0 shadow-lg  md:w-1/3  ${!toggleMenu && "-right-full"} h-screen px-6 py-10 text-secondary`}>
                 {
                     navItems?.map(item => {
                         return (
-                            <li className="flex flex-col mb-4 font-semibold text-2xl" role="button" key={item.id}>
+                            <li className="flex flex-col mb-4 font-bold text-2xl" role="button" key={item.id}>
                                 <Link
                                     name={item.id}
                                     onSetActive={handleActiveIndex}
