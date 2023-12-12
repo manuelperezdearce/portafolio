@@ -8,11 +8,12 @@ export default function NavUtilities({ navItems, handleActiveIndex, activeIndex 
     const handleToggleMenu = () => {
         toggleMenu ? setToggleMenu(false) : setToggleMenu(true)
     }
-    console.log(toggleMenu)
     return (
         <>
             <IoMdMenu className="text-4xl" role='button' onClick={handleToggleMenu} />
-            <ul className={`duration-200 bg-customFucsia50 absolute top-[40px] md:top-[64px] w-2/3 -right-0 shadow-lg  md:w-1/3  ${!toggleMenu && "-right-full"} h-screen px-6 py-10 text-secondary`}>
+
+            <ul className={`duration-200 bg-customFucsia50 absolute top-[40px] md:top-[64px] w-2/3 -right-0 shadow-lg  md:w-1/3  ${!toggleMenu && "-right-full"} h-screen px-6 py-10 text-secondary`}
+            >
                 {
                     navItems?.map(item => {
                         return (
