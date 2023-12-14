@@ -22,13 +22,16 @@ module.exports = {
         customWhite: 'var(--customWhite)',
         customBlack: 'var(--customBlack)',
         customBlack10: 'var(--customBlack10)',
+        customBlack90: 'var(--customBlack90)',
         customRed: 'var(--customRed)',
         customRed50: 'var(--customRed50)',
         customCalipso: 'var(--customCalipso)',
+        customCalipso90: 'var(--customCalipso90)',
         customCalipso10: 'var(--customCalipso10)',
         customFucsia: 'var(--customFucsia)',
         customFucsia2: 'var(--customFucsia2)',
         customFucsia50: 'var(--customFucsia50)',
+        customFucsia30: 'var(--customFucsia30)'
       },
       keyframes: {
         pulseFull: {

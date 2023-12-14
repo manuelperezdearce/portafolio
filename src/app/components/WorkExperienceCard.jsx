@@ -18,7 +18,7 @@ export default function WorkExperienceCard({ item }) {
                     <h4 className="font-semibold text-lg md:text-xl uppercaseflex">
                         {item.empresa}
                     </h4>
-                    <h5 className="text-sm mt-2">
+                    <h5 className="text-sm opacity-80 mt-2">
                         {item.fecha}
                     </h5>
                     <ToogleButton toggle={toggle} handleToggle={handleToggle} />
