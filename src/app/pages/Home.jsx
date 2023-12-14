@@ -6,7 +6,7 @@ const icoStyle = "relative p-3 text-3xl sm:text-5xl text-customCalipso bg-opacit
 export default function Home() {
 
     return (
-        <div className="mx-auto p-4 min-h-screen w-full max-w-[950px] flex items-center relative justify-center">
+        <div className="mx-auto px-4 py-10  min-h-screen w-full max-w-[950px] flex items-center relative justify-center">
             <div className="z-20 w-full animate-fade-right animate-once animate-duration-1000">
                 <h2 className="font-title font-black text-left        bg-gradient-to-l from-customCalipso via-customCalips to-customFucsia drop-shadow-md
                     text-[11vw] sm:text-7xl  z-30 uppercase  leading-tight sm:text-left whitespace-nowrap break-al  ">
