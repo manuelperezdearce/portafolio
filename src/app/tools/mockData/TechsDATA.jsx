@@ -17,11 +17,6 @@ export const TECHSDATA = [
     },
     {
         type: 'tool',
-        name: "Agile",
-        url: '/tecnologias/agile.png'
-    },
-    {
-        type: 'tool',
         name: "Autocad",
         url: '/tecnologias/autocad.png'
     },
@@ -129,6 +124,16 @@ export const TECHSDATA = [
         type: 'tool',
         name: "Trello",
         url: '/tecnologias/trello.png'
+    },
+    {
+        type: 'tech',
+        name: "Axios",
+        url: '/tecnologias/axios.png'
+    },
+    {
+        type: 'tech',
+        name: "Zustand",
+        url: '/tecnologias/zustand.png'
     },
 
 

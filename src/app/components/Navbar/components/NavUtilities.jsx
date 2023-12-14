@@ -5,7 +5,7 @@ import Footer from "../../Footer/Footer"
 
 export default function NavUtilities({ navItems, handleActiveIndex, activeIndex }) {
 
-    const [toggleMenu, setToggleMenu] = useState(false)
+    const [toggleMenu, setToggleMenu] = useState(true)
     const handleToggleMenu = () => {
         toggleMenu ? setToggleMenu(false) : setToggleMenu(true)
     }
@@ -23,7 +23,6 @@ export default function NavUtilities({ navItems, handleActiveIndex, activeIndex 
                                     <Link
                                         name={item.id}
                                         onSetActive={handleActiveIndex}
-                                        onClick={handleActiveIndex}
                                         to={item.name}
                                         smooth={true}
                                         spy={true}

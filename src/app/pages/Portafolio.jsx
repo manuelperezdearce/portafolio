@@ -1,9 +1,7 @@
-"use client"
+'use client'
 import PORTFOLIO_DATA from "../tools/mockData/PortfolioDATA.json"
 import { useEffect, useState } from "react"
-import Error404 from "../components/Error404"
 import ProjectCard from "../components/ProjectCard"
-import Button from "../components/Button"
 import { Carousel } from 'flowbite-react';
 
 export default function Portafolio({ styles }) {
@@ -21,14 +19,12 @@ export default function Portafolio({ styles }) {
     const getLatestNOlder = () => {
         const first3 = data.slice(0, 3)
         const others = data.slice(3)
-
         return (setLatest(first3), setOlder(others))
     }
 
     useEffect(() => {
         sortData()
         getLatestNOlder()
-
     }, [])
 
     return (
