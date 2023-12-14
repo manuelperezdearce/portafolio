@@ -1,5 +1,4 @@
 'use client'
-import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Section from "./components/Section/Section";
 import About from "./pages/About";
