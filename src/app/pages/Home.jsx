@@ -9,11 +9,11 @@ export default function Home() {
         <div className="mx-auto p-4 min-h-screen w-full max-w-[950px] flex items-center relative justify-center">
             <div className="z-20 w-full animate-fade-right animate-once animate-duration-1000">
                 <h2 className="font-title font-black text-left        bg-gradient-to-l from-customCalipso via-customCalips to-customFucsia drop-shadow-md
-                    text-4xl sm:text-7xl  z-30 uppercase  leading-tight sm:text-left whitespace-nowrap break-al  ">
+                    text-[11vw] sm:text-7xl  z-30 uppercase  leading-tight sm:text-left whitespace-nowrap break-al  ">
                     Manuel <br /> Pérez de Arce
                 </h2>
                 <h1 className="relative drop-shadow-md text-[rgba(23,45,66,1)] 
-                    bg-gradient-to-r from-customCalipso via-customCalips to-customFucsia font-black sm:text-left text-[24px] sm:text-5xl  z-30 uppercase sm:whitespace-nowrap">
+                    bg-gradient-to-r from-customCalipso via-customCalips to-customFucsia font-black sm:text-left text-[7.5vw] sm:text-5xl  z-30 uppercase sm:whitespace-nowrap">
                     Desarrollador Web
                 </h1>
                 <div className="mx-auto mt-8 flex justify-start items-center flex-wrap gap-6">
