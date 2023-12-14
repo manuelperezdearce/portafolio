@@ -81,3 +81,7 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.ico {
+  color: var(--customCalipso);
+}

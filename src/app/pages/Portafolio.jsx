@@ -21,7 +21,6 @@ export default function Portafolio({ styles }) {
     const getLatestNOlder = () => {
         const first3 = data.slice(0, 3)
         const others = data.slice(3)
-        console.log(first3, others)
 
         return (setLatest(first3), setOlder(others))
     }
@@ -34,7 +33,7 @@ export default function Portafolio({ styles }) {
 
     return (
         <div
-            className="text-center max-w-[900px] mx-auto [&>div]:mb-10"
+            className="text-center max-w-[950px] bg-purple-500 backdrop-blur-lg bg-opacity-10 rounded-2xl p-8 mx-auto [&>div]:mb-10"
         >
             <h3 className="font-title font-black  text-4xl uppercase mb-10">Portafolio</h3>
             <div className="flex [&>article]:my-10 flex-col">

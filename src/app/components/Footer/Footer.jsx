@@ -42,8 +42,8 @@ export default function Footer() {
                 <img
                     className='m-auto w-[30px]'
                     src="./LOGO-W.png" alt="LOGO" />
-                <p className='w-[250px] text-start'>
-                    SiriFazendoBarra /
+                <p className='w-[260px] text-start'>
+                    Manuel Pérez de Arce /
                     versión 1.0
                 </p>
             </article>

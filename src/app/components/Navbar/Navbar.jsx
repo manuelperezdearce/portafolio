@@ -7,18 +7,22 @@ import { IoMdMenu } from "react-icons/io"
 const navItems = [
     {
         id: '0',
-        name: 'Sobre mí'
+        name: 'Home'
     },
     {
         id: '1',
-        name: 'Experiencia'
+        name: 'Sobre mí'
     },
     {
         id: '2',
-        name: 'Portafolio'
+        name: 'Experiencia'
     },
     {
         id: '3',
+        name: 'Portafolio'
+    },
+    {
+        id: '4',
         name: 'Tecnologías'
     },
     // {
