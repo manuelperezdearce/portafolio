@@ -7,13 +7,13 @@ export default function Home() {
 
     return (
         <div className="mx-auto p-4 min-h-screen w-full max-w-[950px] flex items-center relative justify-center">
-            <div className="z-20 w-full">
+            <div className="z-20 w-full animate-fade-right animate-once animate-duration-1000">
                 <h2 className="font-title font-black text-left        bg-gradient-to-l from-customCalipso via-customCalips to-customFucsia drop-shadow-md
-                    text-4xl sm:text-7xl  z-30 uppercase animate-fade-left animate-once animate-duration-1000 leading-tight sm:text-left whitespace-nowrap break-al  ">
+                    text-4xl sm:text-7xl  z-30 uppercase  leading-tight sm:text-left whitespace-nowrap break-al  ">
                     Manuel <br /> Pérez de Arce
                 </h2>
                 <h1 className="relative drop-shadow-md text-[rgba(23,45,66,1)] 
-                    bg-gradient-to-r from-customCalipso via-customCalips to-customFucsia font-black sm:text-left text-[24px] sm:text-5xl  z-30 animate-fade-left animate-once animate-duration-1000 uppercase sm:whitespace-nowrap">
+                    bg-gradient-to-r from-customCalipso via-customCalips to-customFucsia font-black sm:text-left text-[24px] sm:text-5xl  z-30 uppercase sm:whitespace-nowrap">
                     Desarrollador Web
                 </h1>
                 <div className="mx-auto mt-8 flex justify-start items-center flex-wrap gap-6">
@@ -31,7 +31,7 @@ export default function Home() {
 
                 </div>
             </div>
-            <p className="opacity-20 lg:opacity-80 duration-200 z-0 absolute -right-20 sm:right-0  text-customFucsia50 lg:text-customFucsia2 text-[350px]">{`/>`}</p>
+            <p className="opacity-20 lg:opacity-80 duration-200 z-0 absolute -right-20 sm:right-0  text-customFucsia30 lg:text-customCalipso90 text-[350px] animate-fade-left animate-once animate-duration-1000">{`/>`}</p>
         </div >
     )
 }

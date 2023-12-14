@@ -16,9 +16,10 @@ export default function About() {
         >
             <div className="max-w-[950px] text-xl mx-auto rounded-2xl p-8 bg-purple-500 backdrop-blur-lg bg-opacity-10 ">
                 <h3 className="font-title font-black text-3xl md:text-4xl uppercase mb-10 text-center">Sobre mí</h3>
-                <ProfilePhoto />
+
                 <div className="mt-10 gap-4 font-light flex flex-wrap justify-between text-base">
                     <div className="max-w-[550px] flex flex-col gap-4">
+                        <ProfilePhoto />
                         <IconTextContainer  >
                             <FaLocationDot className="ico" />
                             <p>Chile</p>
@@ -43,7 +44,7 @@ export default function About() {
 
                         </div>
                         <p>
-                            Soy <b>Frontend Developer</b> y me apasionan los desafíos que la programación propone, mi naturaleza es autodidacta y siempre estoy dispuesto a colaborar.
+                            Soy <b className="text-customFucsia font-black">Frontend Developer</b> y me apasionan los desafíos que la programación propone, mi naturaleza es autodidacta y siempre estoy dispuesto a colaborar.
                         </p>
 
                         <p>

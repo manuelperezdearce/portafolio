@@ -48,9 +48,6 @@ export default function App() {
           <Tecnologias />
         </Section>
       </main>
-      <Footer />
-
-
     </div >
   )
 }
