@@ -12,7 +12,7 @@ export default function About() {
 
     return (
         <div
-            className={`mx-auto min-h-screen flex items-center`}
+            className={`mx-auto`}
         >
             <div className="max-w-[950px] text-xl mx-auto rounded-2xl p-8 bg-purple-500 backdrop-blur-lg bg-opacity-10 ">
                 <h3 className="font-title font-black text-3xl md:text-4xl uppercase mb-10 text-center">Sobre mí</h3>

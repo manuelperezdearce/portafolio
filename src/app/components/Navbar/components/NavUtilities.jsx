@@ -23,7 +23,6 @@ export default function NavUtilities({ navItems, handleActiveIndex, activeIndex 
                                     <Link
                                         name={item.id}
                                         onSetActive={handleActiveIndex}
-                                        onClick={handleActiveIndex}
                                         to={item.name}
                                         smooth={true}
                                         spy={true}
