@@ -1,0 +1,246 @@
+{
+  "data": {
+    "portafolio": {
+      "-NRryycQsU_-n4VXj0Nd": {
+        "date": "03/24/2023",
+        "deploy": "https://rad-faun-9c96aa.netlify.app/",
+        "descr": "Trabajo final bootcamp, en constante mejora",
+        "img": "",
+        "repo": "https://github.com/SiriFazendoBarra/player2",
+        "title": "Retro Market Player 2",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRrzJ85aY_nNY6TFPhj": {
+        "date": "04/05/2023",
+        "deploy": "https://professional-profile.netlify.app/",
+        "descr": "Mi curriculum versión StarCraft",
+        "img": "",
+        "repo": "https://github.com/SiriFazendoBarra/cv",
+        "title": "Mi CV",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRxayFJbjW2kZd39Fas": {
+        "date": "07/31/2022",
+        "deploy": "https://iguana-landingpage.netlify.app",
+        "descr": "Primera página informativa, responsive, usando css flex",
+        "img": "https://d33wubrfki0l68.cloudfront.net/6428627f8889553af36a3f58/screenshot_2023-04-01-16-57-51-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/landingpage",
+        "title": "Iguana Pages",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRxd_5Wt216bRGNzSNl": {
+        "date": "08/06/2022",
+        "deploy": "https://cupon-page.netlify.app",
+        "descr": "Primera aplicación web responsive usando bootstrap y css",
+        "img": "https://d33wubrfki0l68.cloudfront.net/64286083b9346d3cbec59042/screenshot_2023-04-01-16-49-23-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/cupon",
+        "title": "Cupon Page",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRxs5rnZlkmyZKqAj-x": {
+        "date": "08/11/2022",
+        "deploy": "https://blogpage-fork.netlify.app/",
+        "descr": "First fork to template repo, git basic commands to clone and commit",
+        "img": "https://d33wubrfki0l68.cloudfront.net/642866ddcee4da423189fa33/screenshot_2023-04-01-17-16-28-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/fdsw-github",
+        "title": "Blog Page",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRxzpInZOOAM0NNPkbM": {
+        "date": "07/21/2022",
+        "deploy": "https://my-first-home-work.netlify.app/",
+        "descr": "Me trying to make a CV using tables, first incursions on CSS, class, id concepts",
+        "img": "https://d33wubrfki0l68.cloudfront.net/642871b7caa5da5212e9cbe3/screenshot_2023-04-01-18-02-54-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/firstHtmlCV",
+        "title": "My first homework",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRyDU1ROctpPvlBidf6": {
+        "date": "07/23/2022",
+        "deploy": "https://dino-wiki.netlify.app/",
+        "descr": "Exploring HTML and CSS, some :hover jaja",
+        "img": "https://d33wubrfki0l68.cloudfront.net/642880e3955a57525e7a71dc/screenshot_2023-04-01-19-07-30-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/dino-wiki",
+        "title": "Dino Wiki",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRyRAxn0-Aod_HfWdEQ": {
+        "date": "09/25/2022",
+        "deploy": "https://card-sass-bootstrap.netlify.app/",
+        "descr": "Installing Sass and editing bootstrap",
+        "img": "https://d33wubrfki0l68.cloudfront.net/64288f30f8883360c163ce39/screenshot_2023-04-01-20-08-34-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/cardSass",
+        "title": "Card Sass",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRyT7ksVSQjtnX7FAht": {
+        "date": "09/04/2022",
+        "deploy": "https://whatsapplike-flexbox.netlify.app/",
+        "descr": "Learning positioning using flexblox",
+        "img": "https://d33wubrfki0l68.cloudfront.net/642890a187d890637fb37b2a/screenshot_2023-04-01-20-14-41-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/flexbox-mensajeria",
+        "title": "WhatsApp Like",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRyVYsUllgPizbPQqfO": {
+        "date": "09/14/2022",
+        "deploy": "https://mercadomimbre.netlify.app/",
+        "descr": "CSS GRID + FLEXBOX + Media Queries",
+        "img": "https://d33wubrfki0l68.cloudfront.net/64289281a6d58963360120c5/screenshot_2023-04-01-20-22-41-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/mercadomimbrev2",
+        "title": "MercadoMimbre",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRyY1xcUcymp6e4QiIH": {
+        "date": "10/10/2022",
+        "deploy": "https://intro-js.netlify.app/",
+        "descr": "Horrendous card, first contact with JavaScript",
+        "img": "https://d33wubrfki0l68.cloudfront.net/6428958836db80650de4101d/screenshot_2023-04-01-20-35-37-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/intro-js",
+        "title": "JavaScript first contact",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRyZNXr34jP_ZCYXXa1": {
+        "date": "10/16/2022",
+        "deploy": "https://js-conditions.netlify.app/",
+        "descr": "Some exercises using conditions and events",
+        "img": "https://d33wubrfki0l68.cloudfront.net/642896f8fe1ad868853084d0/screenshot_2023-04-01-20-41-45-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/desafio2-js-condiciones",
+        "title": "JS exercises",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRy_TX4gHrlY9BJuZeF": {
+        "date": "11/03/2022",
+        "deploy": "https://arrays-objects-intro.netlify.app/",
+        "descr": "Some exercises using arrays and objects",
+        "img": "https://d33wubrfki0l68.cloudfront.net/64289881cee4da683289f88e/screenshot_2023-04-01-20-48-17-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/desafio4-arreglosyobjetos",
+        "title": "JS Arrays & Objects",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRybTRSWs5jmz2jXMWA": {
+        "date": "11/21/2022",
+        "deploy": "https://my-first-todolist-js.netlify.app/",
+        "descr": "More exercises using arrays and objects",
+        "img": "https://d33wubrfki0l68.cloudfront.net/64289a7bb9346d696ac59043/screenshot_2023-04-01-20-56-48-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/listaTareas",
+        "title": "JS First todo list",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRz9rzwipzOm-tVeNJs": {
+        "date": "02/07/2023",
+        "deploy": "https://pizza-mama-mia.netlify.app/",
+        "descr": "Implementing React Context and Router Dom on a template",
+        "img": "https://d33wubrfki0l68.cloudfront.net/6428be97e280057c204c06ad/screenshot_2023-04-01-23-31-02-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/template-basico-prueba-react-II",
+        "title": "Mama Mia",
+        "tools": [
+          "React",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRz9rzwipzOm-tVfNJs": {
+        "date": "11/12/2023",
+        "deploy": "https://product-vaper.netlify.app/",
+        "descr": "Testing wireframe for vapes looks like.",
+        "img": "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/657741812cd1c00008b57882/screenshot_2023-12-11-17-06-29-0000.png",
+        "repo": "https://github.com/manuelPerezdeArce/product-vaper",
+        "title": "Vaper NEXTPOD STICK",
+        "tools": [
+          "React",
+          "Zustand",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRz2rz34pzOm-tVf56ls": {
+        "date": "10/23/2023",
+        "deploy": "https://green-eatsnc.netlify.app/home",
+        "descr": "GreenEats - Tu conexión con la comida saludable y sostenible directamente en tu hogar.",
+        "img": "",
+        "repo": "https://github.com/No-Country/s10-19-n-csharp-react",
+        "title": "GreenEats Website",
+        "tools": [
+          "React",
+          "Redux",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      }
+    }
+  }
+}

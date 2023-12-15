@@ -24,7 +24,7 @@ export default function WorkExperienceCard({ item }) {
                     </h5>
                     <ToogleButton toggle={toggle} handleToggle={handleToggle} />
                 </div>
-                <div className={`max-h-0 duration-200 ${toggle && "max-h-[500px]"} overflow-hidden mt-4`}>
+                <div className={`h-0 duration-200 ${toggle && "h-full"} overflow-hidden mt-4`}>
                     <p className="mb-2 text-sm">{item.descripcion}</p>
                     <ul className="text-sm md: ps-3 sm:ps-10 relative">
                         {
@@ -39,7 +39,6 @@ export default function WorkExperienceCard({ item }) {
 
                                         </li>
                                     </div>
-
                                 )
                             })
                         }

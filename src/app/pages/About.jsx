@@ -14,7 +14,7 @@ export default function About() {
         <div
             className={`mx-auto`}
         >
-            <div className="max-w-[950px] text-xl mx-auto rounded-2xl p-8 bg-purple-500 backdrop-blur-lg bg-opacity-10 ">
+            <div className="max-w-[950px] text-xl mx-auto rounded-2xl  py-8 px-2 md:px-8 bg-purple-500 backdrop-blur-lg bg-opacity-10 ">
                 <h3 className="font-title font-black text-3xl md:text-4xl uppercase mb-10 text-center">Sobre mí</h3>
 
                 <div className="mt-10 gap-4 font-light flex flex-wrap justify-between text-base">

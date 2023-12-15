@@ -9,7 +9,6 @@ import Home from "./pages/Home";
 import SectionFull from "./components/Section/SectionFull";
 
 export default function App() {
-
   return (
     <div name='CONTAINER' className="h-screen flex flex-col justify-top bg-customBlack10 relative">
       <Navbar />

@@ -1,5 +1,7 @@
 import { FaLinkedin, FaGoogleDrive } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import { GrDocumentText } from "react-icons/gr";
+
 
 const icoStyle = "relative p-3 text-3xl sm:text-5xl text-customCalipso bg-opacity-50 bg-customFucsia50 rounded-full hover:scale-110 hover:brightness-110 hover:duration-200 group"
 
@@ -25,8 +27,7 @@ export default function Home() {
                         <FaGithub />
                     </a>
                     <a className={icoStyle} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1XIJWpRVDLe7T7lp99Qi7LW026KAz2bR1/view?usp=sharing">
-                        <FaGoogleDrive />
-                        <p className="z-10 drop-shadow-md  absolute text-3xl text-secondary font-black bottom-0 -right-3 group-hover:text-customFucsia duration-200">CV</p>
+                        <GrDocumentText className="[&>*]:stroke-customCalipso" />
                     </a>
 
                 </div>
