@@ -37,21 +37,16 @@ const navItems = [
 
 ]
 
-export default function Navbar({ scrollTop }) {
+export default function Navbar() {
 
-    const [activeIndex, setActiveIndex] = useState("Home")
-
-    const handleActiveIndex = (e) => {
-        setActiveIndex(e)
-    }
     return (
-        <header className={`w-[100vw] bg-primary10 backdrop-blur-xl opacity-[${scrollTop}% ] text-customWhite md:h-16 flex items-center justify-center shadow-lg shadow-customBlack10 text-sm font-light fixed px-8 duration-150 z-50 rounded-b-lg`}
+        <header className={`w-[100vw] bg-primary10 backdrop-blur-xl  text-customWhite md:h-16 flex items-center justify-center shadow-lg shadow-customBlack10 text-sm font-light fixed px-8 duration-150 z-50 rounded-b-lg`}
         >
             <nav className="w-full max-w-[950px] md:w-[100%] flex justify-between items-center z-50">
                 {/* <Link className="w-full z-50 flex hover:cursor-pointer items-center gap-4" role="button" to="Home" containerId="main" smooth={true}>
                     <GoUp />
                 </Link> */}
-                <NavUtilities navItems={navItems} handleActiveIndex={handleActiveIndex} activeIndex={activeIndex} />
+                <NavUtilities navItems={navItems} />
             </nav>
         </header >
     )
