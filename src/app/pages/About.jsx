@@ -44,16 +44,15 @@ export default function About() {
 
                         </div>
                         <p>
-                            Soy <b className="text-customFucsia font-black">Frontend Developer</b> y me apasionan los desafíos que la programación propone, mi naturaleza es autodidacta y siempre estoy dispuesto a colaborar.
+                            Como <b className="text-customFucsia font-black">Frontend Developer</b>, me apasiona enfrentar los desafíos que la programación ofrece. Soy autodidacta por naturaleza y siempre estoy dispuesto a colaborar.
                         </p>
 
                         <p>
-                            Tengo experiencia desarrollando aplicaciones web de forma independiente y en equipo, con enfoque en resultados para el cliente, accesibilidad y un código escalable y mantenible.
+                            Tengo experiencia en el desarrollo de aplicaciones web, tanto de forma independiente como en equipos agiles, con especial atención en los resultados para el cliente, la accesibilidad y el mantenimiento y escalabilidad del código.
                         </p>
                         <p>
-                            Estoy constamente mejorando mis habilidades y aprendiendo nuevas tecnologías con el fin de entregar productos de mayor valor en cada proyecto.
+                            Me esfuerzo constantemente por mejorar mis habilidades y obtener conocimientos en nuevas tecnologías para ofrecer productos de mayor calidad y valor.
                         </p>
-
                     </div>
                     <div>
 

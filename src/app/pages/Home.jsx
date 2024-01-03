@@ -26,7 +26,7 @@ export default function Home() {
                     <a className={icoStyle} target="_blank" rel="noopener noreferrer" href="https://www.github.com/manuelperezdearce/">
                         <FaGithub />
                     </a>
-                    <a className={icoStyle} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1XIJWpRVDLe7T7lp99Qi7LW026KAz2bR1/view?usp=sharing">
+                    <a className={icoStyle} target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1bbDY3wDDyDhK7vGZAfru7nZovs_81xta/view?usp=drive_link">
                         <GrDocumentText className="[&>*]:stroke-customCalipso" />
                     </a>
 
