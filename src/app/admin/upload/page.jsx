@@ -8,7 +8,6 @@ export default function Upload() {
     const router = useRouter()
     const { loggin } = useAuth()
 
-
     // if (!loggin) router.push("/admin")
 
     return (
