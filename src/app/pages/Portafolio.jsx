@@ -1,5 +1,5 @@
 'use client'
-import PORTFOLIO_DATA from "../tools/mockData/PortfolioDATA-ALL.json"
+import PORTFOLIO_DATA from "../tools/mockData/PortfolioDATA.json"
 import { useEffect, useState } from "react"
 import ProjectCard from "../components/ProjectCard"
 import { Carousel } from 'flowbite-react';

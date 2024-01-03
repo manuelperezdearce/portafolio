@@ -5,7 +5,7 @@
         "date": "03/24/2023",
         "deploy": "https://rad-faun-9c96aa.netlify.app/",
         "descr": "Trabajo final bootcamp, en constante mejora",
-        "img": "",
+        "img": "/portafolio/player2.png",
         "repo": "https://github.com/SiriFazendoBarra/player2",
         "title": "Retro Market Player 2",
         "tools": [
@@ -34,12 +34,41 @@
         "date": "10/23/2023",
         "deploy": "https://green-eatsnc.netlify.app/home",
         "descr": "GreenEats - Tu conexión con la comida saludable y sostenible directamente en tu hogar.",
-        "img": "",
+        "img": "https://camo.githubusercontent.com/74192f762f15d7c8a0eb038156316df642aabe893bfc575e6894c08eebd5311d/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f647069776d62736f672f696d6167652f75706c6f61642f76313639343637343232322f6669746e6573734d61746b65742f686f6d655f6e637168637a2e706e67",
         "repo": "https://github.com/No-Country/s10-19-n-csharp-react",
         "title": "GreenEats Website",
         "tools": [
           "React",
           "Redux",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRz2rz34pzOm-tVf676ls": {
+        "date": "12/18/2023",
+        "deploy": "https://tama-gallery.netlify.app/",
+        "descr": "Galería para Fotógrafo - en desarrollo",
+        "img": "https://d33wubrfki0l68.cloudfront.net/657fbf721ade9160d846e1c5/screenshot_2023-12-18-03-42-59-0000.png",
+        "repo": "https://github.com/manuelperezdearce/tama-gallery",
+        "title": "Photo Gallery",
+        "tools": [
+          "React",
+          "NextJs",
+          "JavaScript",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      "-NRxayFJbjW2kZd39Fas": {
+        "date": "07/31/2022",
+        "deploy": "https://iguana-landingpage.netlify.app",
+        "descr": "Primera página informativa, responsive, usando css flex",
+        "img": "https://d33wubrfki0l68.cloudfront.net/6428627f8889553af36a3f58/screenshot_2023-04-01-16-57-51-0000.png",
+        "repo": "https://github.com/SiriFazendoBarra/landingpage",
+        "title": "Iguana Pages",
+        "tools": [
+          "React",
           "JavaScript",
           "CSS",
           "HTML5"
