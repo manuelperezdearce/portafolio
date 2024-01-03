@@ -18,7 +18,7 @@
       "-NRz9rzwipzOm-tVfNJs": {
         "date": "11/12/2023",
         "deploy": "https://product-vaper.netlify.app/",
-        "descr": "Testing wireframe for vapes looks like.",
+        "descr": "Landing de producto",
         "img": "https://screenshot-proxy.netlify.app/f_avif,fit_cover,s_336x210/https://d33wubrfki0l68.cloudfront.net/657741812cd1c00008b57882/screenshot_2023-12-11-17-06-29-0000.png",
         "repo": "https://github.com/manuelPerezdeArce/product-vaper",
         "title": "Vaper NEXTPOD STICK",
@@ -68,10 +68,20 @@
         "repo": "https://github.com/SiriFazendoBarra/landingpage",
         "title": "Iguana Pages",
         "tools": [
-          "React",
           "JavaScript",
           "CSS",
           "HTML5"
+        ]
+      },
+      "-NRxayF35232kZd39Fas": {
+        "date": "07/31/2022",
+        "deploy": "https://www.haken.cl/",
+        "descr": "Landing page para empresa",
+        "img": "/portafolio/haken.png",
+        "repo": "https://github.com/SiriFazendoBarra",
+        "title": "Haken Chile Landing Page",
+        "tools": [
+          "WordPress"
         ]
       }
     }
