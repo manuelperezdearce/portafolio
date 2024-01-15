@@ -3,10 +3,10 @@ import LinkButton from "./LinkButton"
 
 const EducationArray = [
     {
-        institution: "Talento Digital",
-        imgUrl: "https://images.credly.com/images/41aa15af-3e0d-4c82-a608-9946a9b7629f/blob.png",
-        date: "2023 - Actual",
-        carreer: "Desarrollador Android Trainee"
+        institution: "Instituto Profesional IACC",
+        imgUrl: "https://sifup.cl/wp-content/uploads/2018/09/LoAO7DvV2la6.png",
+        date: "2024 - Actual",
+        carreer: "Ingeniería en Informática"
 
     },
     {
@@ -20,7 +20,7 @@ const EducationArray = [
         institution: "Desafío Latam",
         imgUrl: "https://broota.s3.amazonaws.com/solicitudes/590/logo/logo_RzsgV2q7VkgSrN9Kw1b5u538XzUHum_200_200.png",
         date: "2022 - 2023",
-        carreer: "Desarrollador Frontend React"
+        carreer: "Desarrollador Frontend"
 
     },
     {
@@ -28,6 +28,13 @@ const EducationArray = [
         imgUrl: "https://www.learnchile.cl/wp-content/uploads/2019/05/logo-inacap.jpg",
         date: "2009 - 2015",
         carreer: "Ingeniero Civil es Sonido y Acústica"
+
+    },
+    {
+        institution: "Universidad Tecnológica de Chile",
+        imgUrl: "https://www.learnchile.cl/wp-content/uploads/2019/05/logo-inacap.jpg",
+        date: "2014",
+        carreer: "Licenciado en Ciencias de la Ingeniería"
 
     }
 ]
