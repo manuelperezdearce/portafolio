@@ -20,15 +20,16 @@ export default function About() {
                 <div className="mt-10 gap-4 font-light flex flex-wrap justify-between text-base">
                     <div className="max-w-[550px] flex flex-col gap-4">
                         <ProfilePhoto />
-                        <IconTextContainer  >
-                            <FaLocationDot className="ico" />
-                            <p>Chile</p>
-                        </IconTextContainer>
-                        <IconTextContainer>
-                            <MdEmail className="ico" />
-                            <p>manuel.perezdearce@gmail.com</p>
-                        </IconTextContainer>
+
                         <div className="flex flex-wrap gap-4">
+                            <IconTextContainer  >
+                                <FaLocationDot className="ico" />
+                                <p>Chile</p>
+                            </IconTextContainer>
+                            <IconTextContainer>
+                                <MdEmail className="ico" />
+                                <p>manuel.perezdearce@gmail.com</p>
+                            </IconTextContainer>
                             <IconTextContainer>
                                 <FaLinkedin className="ico" />
                                 <p>
@@ -44,14 +45,15 @@ export default function About() {
 
                         </div>
                         <p>
-                            Como <b className="text-customFucsia font-black">Frontend Developer</b>, me apasiona enfrentar los desafíos que la programación ofrece. Soy autodidacta por naturaleza y siempre estoy dispuesto a colaborar.
+                            Como <b className="text-customFucsia font-black">Frontend Developer</b>,
+                            encuentro motivación en superar los desafíos que la programación presenta. Mi enfoque autodidacta me impulsa a aprender continuamente y a colaborar de manera efectiva
                         </p>
 
                         <p>
-                            Tengo experiencia en el desarrollo de aplicaciones web, tanto de forma independiente como en equipos agiles, con especial atención en los resultados para el cliente, la accesibilidad y el mantenimiento y escalabilidad del código.
+                            Cuento con experiencia en el desarrollo de aplicaciones web, tanto de forma independiente como en equipos ágiles. Mi atención se centra en resultados satisfactorios para el cliente, accesibilidad, así como en el mantenimiento y escalabilidad del código.
                         </p>
                         <p>
-                            Me esfuerzo constantemente por mejorar mis habilidades y obtener conocimientos en nuevas tecnologías para ofrecer productos de mayor calidad y valor.
+                            Siempre me esfuerzo por perfeccionar mis habilidades y mantenerme al tanto de las últimas tecnologías, con el objetivo de proporcionar productos de alta calidad y valor.
                         </p>
                     </div>
                     <div>
